@@ -28,7 +28,7 @@ const AboutMe = () => {
   return (
     <div className={`${classes["about-me"]} container`}>
       <h1 id="aboutMe">About Me</h1>
-      <div class={classes["container"]}>
+      <div class={`${classes["container"]} container`}>
         {gallery.map((photo) => (
           <figure>
             <img src={photo.src} alt={photo.name} />

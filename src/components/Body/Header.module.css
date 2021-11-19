@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.main-header .main-nav {
+  padding: 30px;
+}
+
 .main-header .headerName {
   font-size: 1.2rem;
   padding: 20px;
@@ -55,6 +59,7 @@
     display: flex;
     margin-right: auto;
     justify-content: space-around;
+    padding: 30px;
   }
 
   .main-header .photo-and-name {

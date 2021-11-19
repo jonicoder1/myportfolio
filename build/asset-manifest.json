@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b191cfe3.chunk.css",
+    "main.js": "/portfolio/static/js/main.f75e4a61.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f75e4a61.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b08d7137.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b08d7137.js.map",
+    "static/js/2.c58cd097.chunk.js": "/portfolio/static/js/2.c58cd097.chunk.js",
+    "static/js/2.c58cd097.chunk.js.map": "/portfolio/static/js/2.c58cd097.chunk.js.map",
+    "static/js/3.a6c5aee3.chunk.js": "/portfolio/static/js/3.a6c5aee3.chunk.js",
+    "static/js/3.a6c5aee3.chunk.js.map": "/portfolio/static/js/3.a6c5aee3.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.b191cfe3.chunk.css.map": "/portfolio/static/css/main.b191cfe3.chunk.css.map",
+    "static/js/2.c58cd097.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c58cd097.chunk.js.LICENSE.txt",
+    "static/media/An_Online_Registration_Form.36ee8599.jpg": "/portfolio/static/media/An_Online_Registration_Form.36ee8599.jpg",
+    "static/media/Interactive_Photo_Gallery.428836a3.jpg": "/portfolio/static/media/Interactive_Photo_Gallery.428836a3.jpg",
+    "static/media/Mobile_first_Responsive_Layout.4bf086af.jpg": "/portfolio/static/media/Mobile_first_Responsive_Layout.4bf086af.jpg",
+    "static/media/My_Personal_Profile_Page.02a82462.jpg": "/portfolio/static/media/My_Personal_Profile_Page.02a82462.jpg",
+    "static/media/Startup_Employee_Directory.a87591a3.jpg": "/portfolio/static/media/Startup_Employee_Directory.a87591a3.jpg",
+    "static/media/Web_App_Dashboard.8ccc29a4.jpg": "/portfolio/static/media/Web_App_Dashboard.8ccc29a4.jpg",
+    "static/media/Web_Style_Guide.6850087b.jpg": "/portfolio/static/media/Web_Style_Guide.6850087b.jpg",
+    "static/media/Wheel_of_Success.90d205b6.jpg": "/portfolio/static/media/Wheel_of_Success.90d205b6.jpg",
+    "static/media/github.0cf0f19f.svg": "/portfolio/static/media/github.0cf0f19f.svg",
+    "static/media/linkedin.be2160c5.svg": "/portfolio/static/media/linkedin.be2160c5.svg",
+    "static/media/me_at_bart.85ae7ebf.png": "/portfolio/static/media/me_at_bart.85ae7ebf.png",
+    "static/media/me_at_beach.3e16d392.png": "/portfolio/static/media/me_at_beach.3e16d392.png",
+    "static/media/me_at_chicago.e2ee1a6f.png": "/portfolio/static/media/me_at_chicago.e2ee1a6f.png",
+    "static/media/me_profile.db8bac5d.jpg": "/portfolio/static/media/me_profile.db8bac5d.jpg",
+    "static/media/my-portuguese-certificate.0057c7f4.jpg": "/portfolio/static/media/my-portuguese-certificate.0057c7f4.jpg",
+    "static/media/twitter.b67bf84c.svg": "/portfolio/static/media/twitter.b67bf84c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b08d7137.js",
+    "static/js/2.c58cd097.chunk.js",
+    "static/css/main.b191cfe3.chunk.css",
+    "static/js/main.f75e4a61.chunk.js"
+  ]
+}
