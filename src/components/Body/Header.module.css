@@ -55,6 +55,10 @@
     width: 120px;
   }
 
+  .main-header .main-nav {
+    padding: 15px;
+  }
+
   .main-header .navbar {
     display: flex;
     margin-right: auto;
