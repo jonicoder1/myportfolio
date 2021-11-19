@@ -1,0 +1,62 @@
+.projects .card {
+  border: red 3px solid;
+  border-radius: 10px;
+  margin: 30px 10px;
+}
+
+.projects .card .inner {
+  margin: 10px;
+}
+
+.projects .description {
+  background: #211e1e;
+  border-radius: 10px;
+  padding: 1px 0 0 1px;
+}
+
+.projects .card .inner ol {
+  height: 125px;
+  overflow-y: scroll;
+}
+
+.projects .card .inner h2 {
+  font-size: medium;
+}
+
+.projects .card {
+  border: #458672 3px solid;
+  border-radius: 10px;
+  margin: 30px 10px;
+}
+
+.projects .card .inner {
+  margin: 10px;
+}
+
+.projects img {
+  opacity: 0.93;
+  border: 5px solid rgba(69, 134, 114, 0.6);
+}
+
+@media only screen and (min-width: 768px) {
+  .projects .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .projects .card {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .projects .row {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+  }
+
+  .projects .col {
+    padding: 0 10px;
+  }
+}

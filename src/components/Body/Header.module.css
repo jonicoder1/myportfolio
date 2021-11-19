@@ -1,0 +1,78 @@
+.main-header {
+  background: #211e1e;
+  margin-bottom: 100px;
+}
+
+.main-header .container {
+  text-align: center;
+}
+
+.main-header .headerName {
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+.main-header .nav-link {
+  display: inline-block;
+  color: #dde600;
+  width: 70vw;
+  background: rgba(24, 56, 137, 0.85);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main-header .profileImg {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: block;
+}
+
+.main-header img {
+  border-radius: 10px;
+}
+
+.main-header .profile-img:hover {
+  animation: spin 1.5s ease-in-out 0s forwards;
+}
+
+.main-header a {
+  font-size: 1rem;
+}
+
+@keyframes spin {
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-light .navbar-nav .nav-link {
+    width: 120px;
+  }
+
+  .main-header .navbar {
+    display: flex;
+    margin-right: auto;
+    justify-content: space-around;
+  }
+
+  .main-header .photo-and-name {
+    display: flex;
+  }
+
+  .main-header .navbar-brand {
+    margin: 0 15px;
+  }
+
+  .main-header .nav {
+    display: flex;
+    align-self: center;
+  }
+
+  .main-header .nav-link {
+    width: 11vw;
+    margin: 0 3px;
+    min-width: 100px;
+  }
+}
