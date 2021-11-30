@@ -1,8 +1,9 @@
 import my_portuguese_certificate from "../../images/certificates/my-portuguese-certificate.jpg";
+import classes from "./Hobbies.module.css";
 
 const Hobbies = () => {
   return (
-    <div class="hobbies container">
+    <div class={`${classes.hobbies} container`}>
       <h1 id="hobbies">Hobbies</h1>
       <div class="row container">
         <div>
@@ -40,10 +41,6 @@ const Hobbies = () => {
               </tr>
             </tbody>
           </table>
-        </div>
-
-        <div>
-          <h1>I Want to Learn more Languages</h1>
         </div>
       </div>
       <hr />
