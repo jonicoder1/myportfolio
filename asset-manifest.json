@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8e241f46.chunk.css",
+    "main.css": "/portfolio/static/css/main.a5bb2201.chunk.css",
     "main.js": "/portfolio/static/js/main.df5e31d5.chunk.js",
     "main.js.map": "/portfolio/static/js/main.df5e31d5.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.67f06c45.js",
@@ -10,7 +10,7 @@
     "static/js/3.aaa8b616.chunk.js": "/portfolio/static/js/3.aaa8b616.chunk.js",
     "static/js/3.aaa8b616.chunk.js.map": "/portfolio/static/js/3.aaa8b616.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.8e241f46.chunk.css.map": "/portfolio/static/css/main.8e241f46.chunk.css.map",
+    "static/css/main.a5bb2201.chunk.css.map": "/portfolio/static/css/main.a5bb2201.chunk.css.map",
     "static/js/2.2b1a9581.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2b1a9581.chunk.js.LICENSE.txt",
     "static/media/An_Online_Registration_Form.36ee8599.jpg": "/portfolio/static/media/An_Online_Registration_Form.36ee8599.jpg",
     "static/media/Instagram.ae0e86ac.svg": "/portfolio/static/media/Instagram.ae0e86ac.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.67f06c45.js",
     "static/js/2.2b1a9581.chunk.js",
-    "static/css/main.8e241f46.chunk.css",
+    "static/css/main.a5bb2201.chunk.css",
     "static/js/main.df5e31d5.chunk.js"
   ]
 }
