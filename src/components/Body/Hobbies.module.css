@@ -1,15 +1,19 @@
+.hobbies {
+}
+
 .hobbies table {
   margin: auto;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .hobbies td {
-  padding: 25px;
+  padding: 5px;
   background-color: darkcyan;
 }
 
 .hobbies th {
-  padding: 10px;
+  background-color: rgba(11, 69, 69, 0.154);
+  padding: 2px;
 }
 
 .hobbies tr {
