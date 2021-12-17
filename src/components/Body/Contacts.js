@@ -29,23 +29,35 @@ const Contacts = () => {
     },
   ];
 
+  const Social = () => {
+    return (
+      <div class={classes["socialMedia"]}>
+        {info.map((social) => (
+          <figure>
+            <a href={social.href} target="_blank" rel="noreferrer">
+              <img src={social.svg} alt={social.name.toLowerCase()} />
+            </a>
+            <figcaption>{social.name}</figcaption>
+          </figure>
+        ))}
+      </div>
+    );
+  };
+
+  const Email = () => {
+    return (
+      <a href="mailto:jogucareers@gmail.com">
+        <h3 class={`${classes["email"]} margin-center`}>send me an email</h3>
+      </a>
+    );
+  };
+
   return (
     <div className={`${classes["contact"]} ${"container"}`} id="contact">
       <h1>Contact/Social</h1>
       <div class="text-align-center">
-        <div class={classes["socialMedia"]}>
-          {info.map((social) => (
-            <figure>
-              <a href={social.href} target="_blank" rel="noreferrer">
-                <img src={social.svg} alt={social.name.toLowerCase()} />
-              </a>
-              <figcaption>{social.name}</figcaption>
-            </figure>
-          ))}
-        </div>
-        <a href="mailto:jogucareers@gmail.com">
-          <h3 class={`${classes["email"]} margin-center`}>send me an email</h3>
-        </a>
+        <Social />
+        <Email />
       </div>
     </div>
   );

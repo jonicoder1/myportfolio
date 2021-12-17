@@ -25,9 +25,8 @@ const AboutMe = () => {
     },
   ];
 
-  return (
-    <div className={`${classes["about-me"]} container`}>
-      <h1 id="aboutMe">About Me</h1>
+  const Cards = () => {
+    return (
       <div class={`${classes["container"]} container`}>
         {gallery.map((photo) => (
           <figure>
@@ -38,6 +37,13 @@ const AboutMe = () => {
           </figure>
         ))}
       </div>
+    );
+  };
+
+  return (
+    <div className={`${classes["about-me"]} container`}>
+      <h1 id="aboutMe">About Me</h1>
+      <Cards />
       <hr />
     </div>
   );
