@@ -32,7 +32,7 @@ const Header = () => {
       <div className={classes["nav"]}>
         {items.map((item) => (
           <h4>
-            <a className={classes["nav-link"]} href={items.href}>
+            <a className={classes["nav-link"]} href={item.href}>
               {item.name}
             </a>
           </h4>
