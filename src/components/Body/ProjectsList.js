@@ -1,33 +1,31 @@
 import classes from "./Projects.module.css";
+import Card from "../UI/Card";
 
 const ProjectHandler = (props) => {
   const FrontEndProjects = () => {
     return (
       <div className={classes["row"]}>
         {props.lists.map((project) => (
-          <div className={classes["card"]}>
-            <div className={classes["inner"]}>
-              <a href={project.href} className={classes["lead"]}>
-                <h2>{project.name}</h2>
-                <img
-                  src={project.src}
-                  class="
-      img-project img-fluid img-thumbnail
-      rounded
-      mb-3
-      d-none d-sm-block
-    "
-                  alt={project.name}
-                />
-              </a>
-              <div className={classes["description"]}>
-                <ol>
-                  <li>{project.description1}</li>
-                  <li>{project.description2}</li>
-                </ol>
+          <Card>
+            <div className={classes["card"]}>
+              <div className={classes["inner"]}>
+                <a href={project.href} className={classes["lead"]}>
+                  <h3>{project.name}</h3>
+                  <img
+                    src={project.src}
+                    class="img-project img-fluid img-thumbnail rounded mb-3 d-none d-sm-block"
+                    alt={project.name}
+                  />
+                </a>
+                <div className={classes["description"]}>
+                  <ol>
+                    <li>{project.description1}</li>
+                    <li>{project.description2}</li>
+                  </ol>
+                </div>
               </div>
             </div>
-          </div>
+          </Card>
         ))}
       </div>
     );

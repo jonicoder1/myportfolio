@@ -19,3 +19,19 @@
 .hobbies tr {
   text-align: left;
 }
+
+.hobbies table {
+  width: 90%;
+}
+
+@media only screen and (min-width: 768px) {
+  .hobbies table {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hobbies table {
+    width: 55%;
+  }
+}

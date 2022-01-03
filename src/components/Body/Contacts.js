@@ -47,7 +47,7 @@ const Contacts = () => {
   const Email = () => {
     return (
       <a href="mailto:jogucareers@gmail.com">
-        <h3 class={`${classes["email"]} margin-center`}>send me an email</h3>
+        <h3 class={`${classes["email"]} margin-center`}>Email</h3>
       </a>
     );
   };
