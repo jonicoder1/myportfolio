@@ -10,6 +10,8 @@
 .about-me img {
   width: 100%;
   border-radius: 8px;
+  animation-name: animate;
+  animation-duration: 4s;
 }
 
 .about-me figcaption {
@@ -35,5 +37,14 @@
 @media only screen and (min-width: 1200px) {
   .about-me .container {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@keyframes animate {
+  from {
+    padding-left: 30px;
+  }
+  to {
+    padding-left: 0px;
   }
 }

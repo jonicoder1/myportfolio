@@ -10,7 +10,9 @@ const ProjectHandler = (props) => {
             <div className={classes["card"]}>
               <div className={classes["inner"]}>
                 <a href={project.href} className={classes["lead"]}>
-                  <h3>{project.name}</h3>
+                  <div className={classes.h3}>
+                    <h3>{project.name}</h3>
+                  </div>
                   <img
                     src={project.src}
                     class="img-project img-fluid img-thumbnail rounded mb-3 d-none d-sm-block"

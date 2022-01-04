@@ -2,6 +2,17 @@
   background: #211e1e;
   border-radius: 10px;
   padding: 1px 0 0 1px;
+  background: rgba(76, 175, 80, 0.3);
+  text-align: left;
+  opacity: 0.5;
+}
+
+.projects .description:hover {
+  opacity: 1;
+}
+
+.projects h3 {
+  height: 40px;
 }
 
 .projects .card .inner ol {
@@ -18,8 +29,10 @@
 }
 
 .projects img {
-  opacity: 0.93;
+  opacity: 0.8;
   border: 5px solid rgba(69, 134, 114, 0.6);
+  animation-name: animate;
+  animation-duration: 4s;
 }
 
 @media only screen and (min-width: 768px) {
@@ -42,5 +55,14 @@
 
   .projects .col {
     padding: 0 10px;
+  }
+}
+
+@keyframes animate {
+  from {
+    padding-left: 100px;
+  }
+  to {
+    padding-left: 0px;
   }
 }
