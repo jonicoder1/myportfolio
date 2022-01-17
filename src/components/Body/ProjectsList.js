@@ -9,7 +9,11 @@ const ProjectHandler = (props) => {
           <Card>
             <div className={classes["card"]}>
               <div className={classes["inner"]}>
-                <a href={project.href} className={classes["lead"]}>
+                <a
+                  href={project.href}
+                  className={classes["lead"]}
+                  target="_blank"
+                >
                   <div className={classes.h3}>
                     <h3>{project.name}</h3>
                   </div>

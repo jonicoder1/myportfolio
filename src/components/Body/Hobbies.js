@@ -30,7 +30,9 @@ const Hobbies = () => {
               <tr>
                 <th>3</th>
                 <td>
-                  <a href={my_portuguese_certificate}>Portuguese</a>
+                  <a href={my_portuguese_certificate} target="_blank">
+                    Portuguese
+                  </a>
                 </td>
                 <td>Intermediate</td>
               </tr>
