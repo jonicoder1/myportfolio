@@ -29,7 +29,7 @@ const AboutMe = () => {
     <div className={`${classes["about-me"]} container`}>
       <h1 id="aboutMe">About Me</h1>
 
-      <div class={`${classes["container"]} container`}>
+      <div className={`${classes["container"]} container`}>
         {gallery.map((photo) => (
           <Card>
             <figure>

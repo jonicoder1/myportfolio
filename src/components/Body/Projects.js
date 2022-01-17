@@ -13,7 +13,7 @@ const Projects = () => {
   const ProjectList = [
     {
       name: "Wheel Of Success",
-      href: "https://jonisland.github.io/portfolio_project_6/",
+      href: "https://jogusland.github.io/portfolio_project_6/",
       src: `${Wheel_of_Success}`,
       description1:
         "Created a browser version of “Wheel of Success”, a word guessing game",
@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       name: "Web App Dashboard",
-      href: "https://jonisland.github.io/portfolio_project_7",
+      href: "https://jogusland.github.io/portfolio_project_7",
       src: `${Web_App_Dashboard}`,
       description1:
         "Built an interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming",
@@ -31,7 +31,7 @@ const Projects = () => {
     },
     {
       name: "Startup Employee Directory",
-      href: "https://jonisland.github.io/portfolio_project_8/",
+      href: "https://jogusland.github.io/portfolio_project_8/",
       src: `${Startup_Employee_Directory}`,
       description1:
         "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages.",
@@ -40,7 +40,7 @@ const Projects = () => {
     },
     {
       name: "My Personal Profile Page",
-      href: "https://jonisland.github.io/portfolio_project_1/",
+      href: "https://jogusland.github.io/portfolio_project_1/",
       src: `${My_Personal_Profile_Page}`,
       description1:
         "Customized a personal online profile by adding graphics, customizing text, and improving the look of a web page using Cascading Style Sheets, the formatting language of the web.",
@@ -49,7 +49,7 @@ const Projects = () => {
     },
     {
       name: "Mobile-first Responsive Layout",
-      href: "https://jonisland.github.io/portfolio_project_2/",
+      href: "https://jogusland.github.io/portfolio_project_2/",
       src: `${Mobile_first_Responsive_Layout}`,
       description1:
         "Designed web pages that look and function well on multiple screen sizes.",
@@ -58,7 +58,7 @@ const Projects = () => {
     },
     {
       name: "An Online Registration Form",
-      href: "https://jonisland.github.io/portfolio_project_3/",
+      href: "https://jogusland.github.io/portfolio_project_3/",
       src: `${An_Online_Registration_Form}`,
       description1:
         "Web forms appear everywhere online: forms allow users to order books, sign up for websites, and post to Facebook.",
@@ -67,7 +67,7 @@ const Projects = () => {
     },
     {
       name: "Interactive Photo Gallery",
-      href: "https://jonisland.github.io/portfolio_project_5/",
+      href: "https://jogusland.github.io/portfolio_project_5/",
       src: `${Interactive_Photo_Gallery}`,
       description1:
         "Used HTML, CSS and the popular programming language JavaScript to create an interactive, searchable gallery of photos.",
@@ -75,7 +75,7 @@ const Projects = () => {
     },
     {
       name: "Web Style Guide",
-      href: "https://jonisland.github.io/portfolio_project_4/",
+      href: "https://jogusland.github.io/portfolio_project_4/",
       src: `${Web_Style_Guide}`,
       description1:
         "Sass is an important tool in a modern Front End Web Developer’s toolbox.",

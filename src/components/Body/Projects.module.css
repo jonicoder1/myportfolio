@@ -31,8 +31,6 @@
 .projects img {
   opacity: 0.8;
   border: 5px solid rgba(69, 134, 114, 0.6);
-  animation-name: animate;
-  animation-duration: 4s;
 }
 
 @media only screen and (min-width: 768px) {
@@ -55,14 +53,5 @@
 
   .projects .col {
     padding: 0 10px;
-  }
-}
-
-@keyframes animate {
-  from {
-    padding-left: 100px;
-  }
-  to {
-    padding-left: 0px;
   }
 }

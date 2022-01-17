@@ -9,22 +9,22 @@ const Contacts = () => {
   const info = [
     {
       name: "Github",
-      href: "https://github.com/jonisland/",
+      href: "https://github.com/jogusland/",
       svg: GithubSVG,
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/jogu/",
+      href: "https://www.linkedin.com/in/jogus/",
       svg: LinkedInSVG,
     },
     {
       name: "Twitter",
-      href: "https://twitter.com/jogutwit/",
+      href: "https://twitter.com/jogu253/",
       svg: TwitterSVG,
     },
     {
       name: "Instagram",
-      href: "https://www.instagram.com/joni_webdev/",
+      href: "https://www.instagram.com/joni_developer/",
       svg: InstagramSVG,
     },
   ];
@@ -55,7 +55,7 @@ const Contacts = () => {
   return (
     <div className={`${classes["contact"]} ${"container"}`} id="contact">
       <h1>Contact/Social</h1>
-      <div class="text-align-center">
+      <div className="text-align-center">
         <Social />
         <Email />
       </div>

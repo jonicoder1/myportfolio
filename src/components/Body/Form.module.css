@@ -1,0 +1,20 @@
+.form-control {
+  text-align: left;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+label {
+  align-tracks: left;
+}
+
+input {
+  width: 100%;
+}
+
+form {
+  margin: auto;
+  width: 30%;
+}

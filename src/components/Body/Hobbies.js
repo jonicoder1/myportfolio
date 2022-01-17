@@ -3,11 +3,11 @@ import classes from "./Hobbies.module.css";
 
 const Hobbies = () => {
   return (
-    <div class={`${classes.hobbies} container`}>
+    <div className={`${classes.hobbies} container`}>
       <h1 id="hobbies">Hobbies</h1>
-      <div class="row container">
+      <div className="row container">
         <div>
-          <h3 class="mb-3">Learning Languages</h3>
+          <h3 className="mb-3">Learning Languages</h3>
           <table>
             <thead>
               <tr>

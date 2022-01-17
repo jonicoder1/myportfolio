@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7fa80f90.chunk.css",
-    "main.js": "/portfolio/static/js/main.33f4f982.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.33f4f982.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a434a568.chunk.css",
+    "main.js": "/portfolio/static/js/main.18cc403b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.18cc403b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.52ded39f.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.52ded39f.js.map",
     "static/js/2.e9da7a8a.chunk.js": "/portfolio/static/js/2.e9da7a8a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.cbc6316a.chunk.js": "/portfolio/static/js/3.cbc6316a.chunk.js",
     "static/js/3.cbc6316a.chunk.js.map": "/portfolio/static/js/3.cbc6316a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.7fa80f90.chunk.css.map": "/portfolio/static/css/main.7fa80f90.chunk.css.map",
+    "static/css/main.a434a568.chunk.css.map": "/portfolio/static/css/main.a434a568.chunk.css.map",
     "static/js/2.e9da7a8a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e9da7a8a.chunk.js.LICENSE.txt",
     "static/media/An_Online_Registration_Form.36ee8599.jpg": "/portfolio/static/media/An_Online_Registration_Form.36ee8599.jpg",
     "static/media/Instagram.762c5adb.svg": "/portfolio/static/media/Instagram.762c5adb.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.52ded39f.js",
     "static/js/2.e9da7a8a.chunk.js",
-    "static/css/main.7fa80f90.chunk.css",
-    "static/js/main.33f4f982.chunk.js"
+    "static/css/main.a434a568.chunk.css",
+    "static/js/main.18cc403b.chunk.js"
   ]
 }

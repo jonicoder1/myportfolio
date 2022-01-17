@@ -17,7 +17,7 @@ const Certificate = () => {
   return (
     <div className={`certificate container`}>
       <h1 id="certificate">Certificate</h1>
-      <div class="container text-align-center">
+      <div className="container text-align-center">
         <h2>Front End Web Development</h2>
         <FrontEndCertificate />
       </div>
