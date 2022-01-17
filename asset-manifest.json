@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a434a568.chunk.css",
-    "main.js": "/portfolio/static/js/main.18cc403b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.18cc403b.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.52ded39f.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.52ded39f.js.map",
-    "static/js/2.e9da7a8a.chunk.js": "/portfolio/static/js/2.e9da7a8a.chunk.js",
-    "static/js/2.e9da7a8a.chunk.js.map": "/portfolio/static/js/2.e9da7a8a.chunk.js.map",
-    "static/js/3.cbc6316a.chunk.js": "/portfolio/static/js/3.cbc6316a.chunk.js",
-    "static/js/3.cbc6316a.chunk.js.map": "/portfolio/static/js/3.cbc6316a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.5b1e7357.chunk.css",
+    "main.js": "/portfolio/static/js/main.3b0d303e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3b0d303e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.ef6b8c1e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.ef6b8c1e.js.map",
+    "static/js/2.162aae4a.chunk.js": "/portfolio/static/js/2.162aae4a.chunk.js",
+    "static/js/2.162aae4a.chunk.js.map": "/portfolio/static/js/2.162aae4a.chunk.js.map",
+    "static/js/3.d21de98c.chunk.js": "/portfolio/static/js/3.d21de98c.chunk.js",
+    "static/js/3.d21de98c.chunk.js.map": "/portfolio/static/js/3.d21de98c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.a434a568.chunk.css.map": "/portfolio/static/css/main.a434a568.chunk.css.map",
-    "static/js/2.e9da7a8a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e9da7a8a.chunk.js.LICENSE.txt",
+    "static/css/main.5b1e7357.chunk.css.map": "/portfolio/static/css/main.5b1e7357.chunk.css.map",
+    "static/js/2.162aae4a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.162aae4a.chunk.js.LICENSE.txt",
     "static/media/An_Online_Registration_Form.36ee8599.jpg": "/portfolio/static/media/An_Online_Registration_Form.36ee8599.jpg",
     "static/media/Instagram.762c5adb.svg": "/portfolio/static/media/Instagram.762c5adb.svg",
     "static/media/Interactive_Photo_Gallery.428836a3.jpg": "/portfolio/static/media/Interactive_Photo_Gallery.428836a3.jpg",
@@ -31,9 +31,9 @@
     "static/media/twitter.b67bf84c.svg": "/portfolio/static/media/twitter.b67bf84c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.52ded39f.js",
-    "static/js/2.e9da7a8a.chunk.js",
-    "static/css/main.a434a568.chunk.css",
-    "static/js/main.18cc403b.chunk.js"
+    "static/js/runtime-main.ef6b8c1e.js",
+    "static/js/2.162aae4a.chunk.js",
+    "static/css/main.5b1e7357.chunk.css",
+    "static/js/main.3b0d303e.chunk.js"
   ]
 }
