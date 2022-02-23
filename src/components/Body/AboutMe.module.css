@@ -10,7 +10,6 @@
 .about-me img {
   width: 100%;
   border-radius: 8px;
-  animation-name: animate;
   animation-duration: 4s;
 }
 
@@ -28,6 +27,10 @@
   margin: 5px;
 }
 
+.about-me figcaption:hover {
+  font-size: x-large;
+}
+
 @media only screen and (min-width: 768px) {
   .about-me .container {
     grid-template-columns: 1fr 1fr;
@@ -37,14 +40,5 @@
 @media only screen and (min-width: 1200px) {
   .about-me .container {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@keyframes animate {
-  from {
-    padding-left: 30px;
-  }
-  to {
-    padding-left: 0px;
   }
 }
