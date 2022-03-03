@@ -4,15 +4,14 @@ import classes from "./Header.module.css";
 const Header = () => {
   const LeftNav = () => {
     const name = "Jonathan Guerrero";
-
     return (
       <div className={classes["photo-and-name"]}>
         <img
           src={myProfile}
           className={`${classes.profileImg} margin-center`}
-          alt="jon photo"
+          alt="jon"
         />
-        <a href="#">
+        <a href="main-header">
           <h4 className={classes["headerName"]}>{name}</h4>
         </a>
       </div>
@@ -31,7 +30,7 @@ const Header = () => {
     return (
       <div className={classes["nav"]}>
         {items.map((item) => (
-          <h4>
+          <h4 key={Math.random()}>
             <a className={classes["nav-link"]} href={item.href}>
               {item.name}
             </a>
@@ -42,7 +41,7 @@ const Header = () => {
   };
 
   return (
-    <div className={classes["main-header"]}>
+    <div className={`main-header ${classes["main-header"]} `}>
       <div className={`${classes["main-nav container p1"]} `}>
         <nav className={classes["navbar"]}>
           <LeftNav />

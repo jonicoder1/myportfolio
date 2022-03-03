@@ -7,7 +7,7 @@ import An_Online_Registration_Form from "../../images/projects/An_Online_Registr
 import Interactive_Photo_Gallery from "../../images/projects/Interactive_Photo_Gallery.jpg";
 import Web_Style_Guide from "../../images/projects/Web_Style_Guide.jpg";
 import classes from "./Projects.module.css";
-import ProjectHandler from "./ProjectsList";
+import ProjectsListHandler from "./ProjectsList";
 
 const Projects = () => {
   const ProjectList = [
@@ -89,7 +89,7 @@ const Projects = () => {
   return (
     <div className={`${classes["projects"]} ${classes["container"]}`}>
       <h1 id="projects">Projects</h1>
-      <ProjectHandler lists={ProjectList} />
+      <ProjectsListHandler lists={ProjectList} />
       <hr />
     </div>
   );

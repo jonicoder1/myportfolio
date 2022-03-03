@@ -6,20 +6,21 @@ const ProjectHandler = (props) => {
     return (
       <div className={classes["row"]}>
         {props.lists.map((project) => (
-          <Card>
+          <Card key={Math.random()}>
             <div className={classes["card"]}>
               <div className={classes["inner"]}>
                 <a
                   href={project.href}
                   className={classes["lead"]}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <div className={classes.h3}>
                     <h3>{project.name}</h3>
                   </div>
                   <img
                     src={project.src}
-                    class="img-project img-fluid img-thumbnail rounded mb-3 d-none d-sm-block"
+                    className="img-project img-fluid img-thumbnail rounded mb-3 d-none d-sm-block"
                     alt={project.name}
                   />
                 </a>

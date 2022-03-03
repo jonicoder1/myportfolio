@@ -25,13 +25,11 @@ const AboutMe = () => {
     },
   ];
 
-  return (
-    <div className={`${classes["about-me"]} container`}>
-      <h1 id="aboutMe">About Me</h1>
-
+  const GalleryHandler = () => {
+    return (
       <div className={`${classes["container"]} container`}>
         {gallery.map((photo) => (
-          <Card>
+          <Card key={Math.random()}>
             <figure>
               <img src={photo.src} alt={photo.name} />
               <figcaption>
@@ -41,6 +39,13 @@ const AboutMe = () => {
           </Card>
         ))}
       </div>
+    );
+  };
+
+  return (
+    <div className={`${classes["about-me"]} container`}>
+      <h1 id="aboutMe">About Me</h1>
+      <GalleryHandler />
       <hr />
     </div>
   );

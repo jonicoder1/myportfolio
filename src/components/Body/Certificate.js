@@ -23,19 +23,17 @@ const Certificate = () => {
     return (
       <div>
         {certificates.map((certificate) => (
-          <div>
-            <Card>
-              <h2>{certificate.name1}</h2>
-              <a href={certificate.href} target="_blank">
-                <h3>{certificate.name2}</h3>
-                <img
-                  className={`${classes["tech-degree"]}`}
-                  src={certificate.src}
-                  alt={certificate.alt}
-                />
-              </a>
-            </Card>
-          </div>
+          <Card key={Math.random()}>
+            <h2>{certificate.name1}</h2>
+            <a href={certificate.href} target="_blank" rel="noreferrer">
+              <h3>{certificate.name2}</h3>
+              <img
+                className={`${classes["tech-degree"]}`}
+                src={certificate.src}
+                alt={certificate.alt}
+              />
+            </a>
+          </Card>
         ))}
       </div>
     );
@@ -43,7 +41,7 @@ const Certificate = () => {
 
   return (
     <div className={`certificate container`}>
-      <h1 id="certificate">Certificate</h1>
+      <h1 id="certificate">Certificates</h1>
       <div className="container text-align-center">
         <CertificatesHandler />
       </div>
