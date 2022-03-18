@@ -6,10 +6,10 @@ const Form = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [enteredFirstName, setEnteredFirstName] = useState(false);
-  const [enteredLastName, setEnteredLastName] = useState(false);
-  const [enteredEmail, setEnteredEmail] = useState(false);
-  const [enteredMessage, setEnteredMessage] = useState(false);
+  const [enteredFirstName, setEnteredFirstName] = useState(true);
+  const [enteredLastName, setEnteredLastName] = useState(true);
+  const [enteredEmail, setEnteredEmail] = useState(true);
+  const [enteredMessage, setEnteredMessage] = useState(true);
 
   // console.log(`Last name is ${enteredLastName}`);
 
@@ -36,27 +36,34 @@ const Form = () => {
   const submitFormHandler = (e) => {
     e.preventDefault();
 
-    if (firstName.trim() === "" && enteredFirstName === false) {
-      setEnteredFirstName(true);
-      console.log(enteredFirstName);
+    if (firstName.trim() === "") {
+      setEnteredFirstName(false);
+      return;
     }
+    setEnteredFirstName(true);
 
-    if (lastName.trim() === "" && enteredLastName === false) {
-      setEnteredLastName(true);
-      console.log(enteredLastName);
+    if (lastName.trim() === "") {
+      setEnteredLastName(false);
+      return;
     }
+    setEnteredLastName(true);
 
-    if (email.trim() === "" && enteredEmail === false) {
-      setEnteredEmail(true);
-      console.log(enteredEmail);
+    if (email.trim() === "") {
+      setEnteredEmail(false);
+      return;
     }
+    setEnteredEmail(true);
 
-    if (message.trim() === "" && enteredMessage === false) {
-      setEnteredMessage(true);
-      console.log(enteredMessage);
+    if (message.trim() === "") {
+      setEnteredMessage(false);
+      return;
     }
+    setEnteredMessage(true);
 
-    if (firstName !== "" && lastName !== "" && email !== "" && message !== "") {
+    const valueIsValid =
+      enteredFirstName && enteredLastName && enteredEmail && enteredMessage;
+
+    if (valueIsValid) {
       console.log("form is Valid");
       console.log(enteredFirstName);
       console.log(enteredLastName);
@@ -66,10 +73,6 @@ const Form = () => {
       setLastName("");
       setEmail("");
       setMessage("");
-      setEnteredFirstName(false);
-      setEnteredLastName(false);
-      setEnteredEmail(false);
-      setEnteredMessage(false);
     }
   };
 
@@ -81,41 +84,45 @@ const Form = () => {
           <input
             id="name"
             type="text"
+            name="fist-name"
             onChange={setFirstNameHandler}
             value={firstName}
           />
-          {enteredFirstName && <p>Error</p>}
+          {!enteredFirstName && <p>Error</p>}
         </div>
         <div className={classes["form-control"]}>
           <label htmlFor="name">Last Name</label>
           <input
             id="name"
             type="text"
+            name="last-name"
             onChange={setLastNameHandler}
             value={lastName}
           />
-          {enteredLastName && <p>Error</p>}
+          {!enteredLastName && <p>Error</p>}
         </div>
         <div className={classes["form-control"]}>
           <label htmlFor="name">Email</label>
           <input
             id="name"
-            type="text"
+            type="email"
+            name="email"
             onChange={setEmailHandler}
             value={email}
           />
-          {enteredEmail && <p>Error</p>}
+          {!enteredEmail && <p>Error</p>}
         </div>
         <div className={classes["form-control"]}>
           <label htmlFor="name">Message</label>
           <textarea
             id="name"
             type="comment"
+            name="message"
             onChange={setMessageHandler}
             value={message}
             rows="5"
           />
-          {enteredMessage && <p>Error</p>}
+          {!enteredMessage && <p>Error</p>}
         </div>
       </div>
       <div className="form-actions">
@@ -131,10 +138,6 @@ const Contact = () => {
   return (
     <div className={`${classes["contact"]} ${"container"}`} id="contact">
       <h1>Contact</h1>
-      <a href="mailto: jogucareers@gmail.com">
-        <h3>Email me</h3>
-      </a>
-      <h4>Or</h4>
       {!theState && (
         <button
           onClick={() => {

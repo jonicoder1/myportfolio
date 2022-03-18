@@ -9,7 +9,7 @@ const Footer = () => {
             <a href="main-header">back to top</a>
           </div>
           <div>
-            <p>©Jonathan L Guerrero</p>
+            <p>©J Guerrero</p>
           </div>
         </div>
       </div>
