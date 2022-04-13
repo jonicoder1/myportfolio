@@ -7,6 +7,7 @@ import Social from "./Body/Social";
 import Contact from "./Body/Contact";
 
 import classes from "./Body.module.css";
+import Skills from "./Body/Skills";
 
 const Body = () => {
   return (
@@ -15,6 +16,7 @@ const Body = () => {
         <div className="grid-container">
           <Header />
           <AboutMe />
+          <Skills />
           <Certificate />
           <Projects />
           <Hobbies />

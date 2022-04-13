@@ -88,9 +88,11 @@ const Projects = () => {
 
   return (
     <div className={`${classes["projects"]} ${classes["container"]}`}>
-      <h1 id="projects">Projects</h1>
-      <ProjectsListHandler lists={ProjectList} />
-      <hr />
+      <div className="container">
+        <h1 id="projects">Projects</h1>
+        <ProjectsListHandler lists={ProjectList} />
+        <hr />
+      </div>
     </div>
   );
 };

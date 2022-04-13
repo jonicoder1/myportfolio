@@ -64,15 +64,16 @@ const Form = () => {
       enteredFirstName && enteredLastName && enteredEmail && enteredMessage;
 
     if (valueIsValid) {
-      console.log("form is Valid");
-      console.log(enteredFirstName);
-      console.log(enteredLastName);
-      console.log(enteredEmail);
-      console.log(enteredMessage);
       setFirstName("");
       setLastName("");
       setEmail("");
       setMessage("");
+      console.log(enteredFirstName);
+      console.log(enteredLastName);
+      console.log(enteredEmail);
+      console.log(enteredMessage);
+      console.log("form is Valid");
+      alert("Your email has been sent!");
     }
   };
 

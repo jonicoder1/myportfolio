@@ -44,8 +44,8 @@ const Certificate = () => {
       <h1 id="certificate">Certificates</h1>
       <div className="container text-align-center">
         <CertificatesHandler />
+        <hr />
       </div>
-      <hr />
     </div>
   );
 };
