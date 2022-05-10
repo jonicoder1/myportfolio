@@ -21,7 +21,7 @@ const AboutMe = () => {
     {
       name: "me at beach",
       src: `${me_at_chicago}`,
-      caption: "Languages keep us all connected ",
+      caption: "Languages keep us all connected",
     },
   ];
 
