@@ -10,7 +10,7 @@ const AboutMe = () => {
       name: "me at the bart",
       src: `${me_at_bart}`,
       caption:
-        "I am a Front End Web Developer who likes to make useful web apps",
+        "I am a Front End Web Developer who likes to make useful web apps ",
     },
     {
       name: "me at beach",
