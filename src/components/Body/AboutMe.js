@@ -16,7 +16,7 @@ const AboutMe = () => {
       name: "me at beach",
       src: `${me_at_beach}`,
       caption:
-        "Automation saves us time and helps us make repetitive tasks easier ",
+        "Automation saves us time and helps us make repetitive tasks easier",
     },
     {
       name: "me at beach",

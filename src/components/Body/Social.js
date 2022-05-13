@@ -3,7 +3,8 @@ import classes from "./Social.module.css";
 import GithubSVG from "../../images/social_media/github.svg";
 import LinkedInSVG from "../../images/social_media/linkedin.svg";
 import TwitterSVG from "../../images/social_media/twitter.svg";
-import InstagramSVG from "../../images/social_media/Instagram/Instagram.svg";
+import InstagramSVG from "../../images/social_media/Instagram/instagram.svg";
+import DiscordSVG from "../../images/social_media/discord.svg";
 
 const Contacts = () => {
   const info = [
@@ -26,6 +27,11 @@ const Contacts = () => {
       name: "Instagram",
       href: "https://www.instagram.com/joni_developer/",
       svg: InstagramSVG,
+    },
+    {
+      name: "Discord",
+      href: "https://discord.gg/eebzH7HwHV",
+      svg: DiscordSVG,
     },
   ];
 

@@ -13,6 +13,7 @@ const Skills = () => {
             <td>GIT</td>
             <td>JSON</td>
             <td>SASS</td>
+            <td>Figma</td>
             <td>Github</td>
             <td>Bootstrap</td>
             <td>Responsive Design</td>
