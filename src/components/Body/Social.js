@@ -39,7 +39,7 @@ const Contacts = () => {
     return (
       <div className={classes["socialMedia"]}>
         {info.map((social) => (
-          <figure key={Math.random()}>
+          <figure key={Math.random()} className="animation">
             <a href={social.href} target="_blank" rel="noreferrer">
               <img src={social.svg} alt={social.name.toLowerCase()} />
             </a>

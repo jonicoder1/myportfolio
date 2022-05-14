@@ -9,3 +9,17 @@
   width: 80px;
   margin: 10px;
 }
+
+.social figure:hover {
+  animation-name: scale;
+  animation-duration: 5s;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
