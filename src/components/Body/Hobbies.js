@@ -3,7 +3,7 @@ import classes from "./Hobbies.module.css";
 
 const Sheet = () => {
   return (
-    <div className={`${classes.container} hobbies`}>
+    <div>
       <h3 className="mb-3">Learning Languages</h3>
       <table>
         <tbody>
@@ -43,11 +43,10 @@ const Sheet = () => {
 
 const Hobbies = () => {
   return (
-    <div className="hobbies">
+    <div className={classes.container}>
       <h1 id="hobbies">Hobbies</h1>
       <div className="row container">
         <Sheet />
-        <hr />
       </div>
     </div>
   );

@@ -432,17 +432,13 @@ a:hover {
   color: #9d9d04;
 }
 
-figcaption:hover {
-  font-size: x-large;
+figure {
+  position: relative;
 }
 
 figure:hover {
   animation-name: scale;
   animation-duration: 5s;
-}
-
-li {
-  padding-bottom: 1em;
 }
 
 ul {
@@ -469,18 +465,17 @@ td {
 }
 
 figcaption {
-  background: rgba(0, 45, 160, 0.85);
   padding: 5px;
   line-height: 1;
   bottom: 3.1px;
   width: 100%;
   height: auto;
+  opacity: 70%;
   min-height: 70px;
 }
 
-figure {
-  position: relative;
-  box-shadow: 5px 5px 5px rgb(56, 56, 56);
+figcaption:hover {
+  font-size: x-large;
 }
 
 img {

@@ -1,3 +1,7 @@
+.container {
+  height: 70vh;
+}
+
 @media only screen and (min-width: 768px) {
   table {
     width: 70%;

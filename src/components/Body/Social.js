@@ -57,9 +57,10 @@ const Contacts = () => {
   };
 
   return (
-    <div className={`${classes.social} container`} id="social">
+    <div className={`${classes.container} container`} id="social">
+      <hr />
       <h1>Social</h1>
-      <div className="text-align-center">
+      <div>
         <Social />
       </div>
     </div>

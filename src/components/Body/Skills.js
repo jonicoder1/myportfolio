@@ -43,7 +43,11 @@ const Skills = () => {
   ];
 
   td.map((item) => {
-    return newList.push(<td className={classes.td}>{item.name}</td>);
+    return newList.push(
+      <td className={classes.td} key={Math.random()}>
+        {item.name}
+      </td>
+    );
   });
 
   return (

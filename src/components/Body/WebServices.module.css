@@ -4,10 +4,22 @@
   width: 90vw;
 }
 
+.header {
+  padding: 35px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+}
+
 .card {
-  width: 30%;
-  margin: 20px;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px auto;
   background: rgb(59, 59, 59);
   border-radius: 20px;
 }
@@ -15,15 +27,22 @@
 .topDiv {
   display: flex;
   flex-direction: column;
-  height: 38vh;
-
-  margin: 0 7% 110px 7%;
+  padding: 10px 7% 10px 7%;
 }
 
 .botDiv {
   display: flex;
   flex-direction: column;
-  margin: 0 7%;
+  margin: auto 7% 10px 7%;
+}
+
+.li {
+  background-color: rgb(22, 129, 129);
+  margin: 10px auto;
+  text-align: left;
+  list-style: none;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
 }
 
 .button {
@@ -36,13 +55,18 @@
   border-radius: 10px;
 }
 
-.cardsContainer {
-  display: flex;
+@media only screen and (min-width: 800px) {
+  .cardsContainer {
+    flex-direction: row;
+  }
+
+  .card {
+    width: 45%;
+  }
 }
 
-.li {
-  background-color: rgb(25, 166, 166);
-  margin: 10px;
-  list-style: none;
-  border-radius: 15px;
+@media only screen and (min-width: 1000px) {
+  .card {
+    width: 30%;
+  }
 }

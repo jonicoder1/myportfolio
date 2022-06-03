@@ -7,11 +7,18 @@
 .tr {
   display: flex;
   flex-wrap: wrap;
-  margin: 100px 30px;
+  margin: 50px 30px;
 }
 
 .td {
   margin: 10px;
   border-radius: 20px;
-  padding: 20px 15px;
+  padding: 10px 15px;
+}
+
+@media only screen and (min-width: 800px) {
+  .td {
+    margin-top: 40px;
+    padding: 20px;
+  }
 }

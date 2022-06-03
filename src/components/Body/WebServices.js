@@ -5,30 +5,68 @@ const WebServices = () => {
     {
       Title: "Basic",
       id: 0,
-      list1: ["lorem1", "lorem2", "lorem3", "lorem4", "lorem5"],
-      list2: ["lorem1", "lorem2", "lorem3", "lorem4", "lorem5"],
+      list1: [
+        "2-3 Web Pages",
+        "Responsive Website",
+
+        "Image Slider",
+        "Stock Photos",
+        "Contact Form",
+        "About Us, Services & Contact Us",
+      ],
+      list2: [
+        "Domain Name ( 1 Year )",
+        "Web Hosting Setup",
+        "50 email accounts",
+        "Web Security ( SSL ) ( 1 Year )",
+        "Free Pages: Privacy, Terms & Disclaimer",
+      ],
       button: "Buy Now",
     },
     {
       Title: "Intermediate",
       id: 1,
-      list1: ["lorem1", "lorem2", "lorem3", "lorem4", "lorem5", "lorem6"],
-      list2: ["lorem1", "lorem2", "lorem3", "lorem4", "lorem5"],
+      list1: [
+        "4-5 Web Pages",
+        "Responsive Website",
+
+        "Image Slider",
+        "Stock Photos",
+        "Contact Form",
+        "Photo Gallery",
+        "Social Network Links",
+        "About Us, Services, Contact Us & Detail",
+      ],
+      list2: [
+        "Domain Name ( 1 Year )",
+        "Web Hosting Setup",
+        "50 email accounts",
+        "Web Security ( SSL ) ( 1 Year )",
+        "Free Pages: Privacy, Terms & Disclaimer",
+      ],
       button: "Buy Now",
     },
     {
       Title: "Advanced",
       id: 3,
       list1: [
-        "lorem1",
-        "lorem2",
-        "lorem3",
-        "lorem4",
-        "lorem5",
-        "lorem6",
-        "lorem7",
+        "8-10 Web Pages",
+        "Responsive Website",
+        "Image Slider",
+        "Stock Photos",
+        "Contact Form",
+        "Photo Gallery",
+        "Social Network Links",
+        "About Us, Services, Contact Us & Detail",
+        "Custom Page Elements",
       ],
-      list2: ["lorem1", "lorem2", "lorem3", "lorem4", "lorem5"],
+      list2: [
+        "Domain Name ( 1 Year )",
+        "Web Hosting Setup",
+        "50 email accounts",
+        "Web Security ( SSL ) ( 1 Year )",
+        "Free Pages: Privacy, Terms & Disclaimer",
+      ],
       button: "Buy Now",
     },
   ];
@@ -41,9 +79,11 @@ const WebServices = () => {
 
     for (let i = 0; i < card.list1.length; i++) {
       list1.push(
-        <li key={Math.random()} className={classes.li}>
-          {card.list1[i]}
-        </li>
+        <div>
+          <li key={Math.random()} className={classes.li}>
+            {card.list1[i]}
+          </li>
+        </div>
       );
     }
 
@@ -73,8 +113,10 @@ const WebServices = () => {
   return (
     <div className={classes.container} id="webServices">
       <hr />
-      <h1>Web Services Section</h1>
-      <h3>Simple Website Design Packages & Pricing</h3>
+      <div className={classes.header}>
+        <h1>Web Services Section</h1>
+        <h3>Simple Website Design Packages & Pricing</h3>
+      </div>
       <div className={`${classes.cardsContainer}`}>{CardsMap}</div>
     </div>
   );
