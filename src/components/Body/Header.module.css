@@ -1,22 +1,18 @@
-.main-header {
+.mainHeader {
   background: #211e1e;
   margin-bottom: 100px;
 }
 
-.main-header .container {
+.container {
   text-align: center;
 }
 
-.main-header .main-nav {
-  padding: 30px;
-}
-
-.main-header .headerName {
+.headerName {
   font-size: 1.2rem;
   padding: 20px;
 }
 
-.main-header .nav-link {
+.navLink {
   display: inline-block;
   color: #dde600;
   width: 70vw;
@@ -25,23 +21,15 @@
   border-radius: 5px;
 }
 
-.main-header .profileImg {
+.profileImg {
   width: 130px;
   height: 130px;
   border-radius: 50%;
   display: block;
 }
 
-.main-header img {
-  border-radius: 10px;
-}
-
-.main-header .profile-img:hover {
+.profileImg:hover {
   animation: spin 1.5s ease-in-out 0s forwards;
-}
-
-.main-header a {
-  font-size: 1rem;
 }
 
 @keyframes spin {
@@ -51,35 +39,27 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .navbar-light .navbar-nav .nav-link {
-    width: 120px;
-  }
-
-  .main-header .main-nav {
+  .mainNav {
     padding: 15px;
   }
 
-  .main-header .navbar {
+  .navbar {
     display: flex;
     margin-right: auto;
     justify-content: space-around;
     padding: 30px;
   }
 
-  .main-header .photo-and-name {
+  .photoAndName {
     display: flex;
   }
 
-  .main-header .navbar-brand {
-    margin: 0 15px;
-  }
-
-  .main-header .nav {
+  .nav {
     display: flex;
     align-self: center;
   }
 
-  .main-header .nav-link {
+  .navLink {
     width: 11vw;
     margin: 0 3px;
     min-width: 100px;

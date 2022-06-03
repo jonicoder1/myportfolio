@@ -4,14 +4,14 @@ import Card from "../UI/Card";
 const ProjectHandler = (props) => {
   const FrontEndProjects = () => {
     return (
-      <div className={classes["row"]}>
+      <div className={classes.row}>
         {props.lists.map((project) => (
           <Card key={Math.random()}>
-            <div className={classes["card"]}>
-              <div className={classes["inner"]}>
+            <div className={classes.card}>
+              <div className={classes.inner}>
                 <a
                   href={project.href}
-                  className={classes["lead"]}
+                  className={classes.lead}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -24,7 +24,7 @@ const ProjectHandler = (props) => {
                     alt={project.name}
                   />
                 </a>
-                <div className={classes["description"]}>
+                <div className={classes.description}>
                   <ol>
                     <li>{project.description1}</li>
                     <li>{project.description2}</li>

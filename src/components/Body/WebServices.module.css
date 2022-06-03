@@ -1,0 +1,40 @@
+.container {
+  height: auto;
+  margin: 150px auto;
+  width: 90vw;
+}
+
+.card {
+  width: 30%;
+  margin: 20px;
+  margin: auto;
+  background: grey;
+  border-radius: 20px;
+}
+
+.topDiv {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  margin: 0 7% 110px 7%;
+}
+
+.botDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 0 7%;
+}
+
+.button {
+  background-color: aqua;
+  border-radius: 20px;
+  margin: 15px;
+  align-self: flex-end;
+  padding: 10px;
+  border: 10px;
+  border-radius: 10px;
+}
+
+.cardsContainer {
+  display: flex;
+}

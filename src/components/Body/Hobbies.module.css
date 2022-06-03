@@ -1,37 +1,11 @@
-.hobbies {
-}
-
-.hobbies table {
-  margin: auto;
-  font-size: 1em;
-}
-
-.hobbies td {
-  padding: 5px;
-  background-color: darkcyan;
-}
-
-.hobbies th {
-  background-color: rgba(11, 69, 69, 0.154);
-  padding: 2px;
-}
-
-.hobbies tr {
-  text-align: left;
-}
-
-.hobbies table {
-  width: 90%;
-}
-
 @media only screen and (min-width: 768px) {
-  .hobbies table {
+  table {
     width: 70%;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .hobbies table {
+  table {
     width: 55%;
   }
 }

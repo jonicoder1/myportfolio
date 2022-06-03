@@ -1,18 +1,14 @@
-.social .socialMedia {
+.socialMedia {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 40px 0;
 }
 
-.social img {
+.socialMedia img {
   width: 80px;
   margin: 10px;
-}
-
-.social figure:hover {
-  animation-name: scale;
-  animation-duration: 5s;
+  border-radius: 50%;
 }
 
 @keyframes scale {

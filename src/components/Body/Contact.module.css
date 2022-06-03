@@ -11,17 +11,3 @@
 .form-control {
   margin-bottom: 1rem;
 }
-
-label {
-  align-tracks: left;
-}
-
-input,
-textarea {
-  width: 100%;
-}
-
-form {
-  margin: auto;
-  width: 30%;
-}

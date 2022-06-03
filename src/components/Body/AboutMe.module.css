@@ -1,44 +1,20 @@
-.about-me .container {
-  display: grid;
-}
-
-.about-me figure {
-  position: relative;
-  box-shadow: 5px 5px 5px rgb(56, 56, 56);
-}
-
-.about-me img {
-  width: 100%;
-  border-radius: 8px;
-  animation-duration: 4s;
-}
-
-.about-me figcaption {
-  background: rgba(0, 45, 160, 0.85);
-  padding: 5px;
-  line-height: 1;
-  bottom: 3.1px;
-  width: 100%;
+.container {
   height: auto;
-  min-height: 70px;
 }
-
-.about-me h4 {
-  margin: 5px;
-}
-
-.about-me figcaption:hover {
-  font-size: x-large;
+.galleryContainer {
+  display: grid;
+  width: 80vw;
+  margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
-  .about-me .container {
+  .galleryContainer {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .about-me .container {
+  .galleryContainer {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }

@@ -1,26 +1,58 @@
 import classes from "./Skills.module.css";
 
 const Skills = () => {
+  let newList = [];
+
+  const td = [
+    {
+      name: "Javascript",
+    },
+    {
+      name: "Reactjs",
+    },
+    {
+      name: "HTML",
+    },
+    {
+      name: "CSS",
+    },
+    {
+      name: "GIT",
+    },
+    {
+      name: "JSON",
+    },
+    {
+      name: "SASS",
+    },
+    {
+      name: "Figma",
+    },
+    {
+      name: "SASS",
+    },
+    {
+      name: "Github",
+    },
+    {
+      name: "Bootstrap",
+    },
+    {
+      name: "Responsive Design",
+    },
+  ];
+
+  td.map((item) => {
+    return newList.push(<td className={classes.td}>{item.name}</td>);
+  });
+
   return (
-    <div className={`${classes} container`}>
-      <table className="container">
+    <div className={classes.container}>
+      <table>
         <tbody>
-          <tr className="tr-container">
-            <td>Javascript</td>
-            <td>Reactjs</td>
-            <td>HTML</td>
-            <td>CSS</td>
-            <td>GIT</td>
-            <td>JSON</td>
-            <td>SASS</td>
-            <td>Figma</td>
-            <td>Github</td>
-            <td>Bootstrap</td>
-            <td>Responsive Design</td>
-          </tr>
+          <tr className={classes.tr}>{newList}</tr>
         </tbody>
       </table>
-      <hr />
     </div>
   );
 };

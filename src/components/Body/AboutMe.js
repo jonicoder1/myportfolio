@@ -27,7 +27,7 @@ const AboutMe = () => {
 
   const GalleryHandler = () => {
     return (
-      <div className={`${classes["container"]} container`}>
+      <div className={classes.galleryContainer}>
         {gallery.map((photo) => (
           <Card key={Math.random()}>
             <figure>
@@ -43,10 +43,9 @@ const AboutMe = () => {
   };
 
   return (
-    <div className={`${classes["about-me"]} container`}>
+    <div className={classes.container}>
       <h1 id="aboutMe">About Me</h1>
       <GalleryHandler />
-      <hr />
     </div>
   );
 };

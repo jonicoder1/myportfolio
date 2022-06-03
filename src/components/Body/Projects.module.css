@@ -1,4 +1,4 @@
-.projects .description {
+.description {
   background: #211e1e;
   border-radius: 10px;
   padding: 1px 0 0 1px;
@@ -7,51 +7,46 @@
   opacity: 0.5;
 }
 
-.projects .description:hover {
+.description:hover {
   opacity: 1;
 }
 
-.projects h3 {
-  height: 40px;
+.img-project {
+  width: 100%;
 }
 
-.projects .card .inner ol {
+.card .inner ol {
   height: 125px;
   overflow-y: scroll;
 }
 
-.projects .card .inner h2 {
+.card .inner h2 {
   font-size: medium;
 }
 
-.projects .card .inner {
+.card .inner {
   margin: 10px;
 }
 
-.projects img {
-  opacity: 0.8;
-  border: 5px solid rgba(69, 134, 114, 0.6);
-}
-
 @media only screen and (min-width: 768px) {
-  .projects .row {
+  .row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
   }
 
-  .projects .card {
+  .card {
     padding: 0 10px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .projects .row {
+  .row {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 50px;
   }
 
-  .projects .col {
+  .col {
     padding: 0 10px;
   }
 }

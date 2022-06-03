@@ -5,14 +5,14 @@ const Header = () => {
   const LeftNav = () => {
     const name = "Jonathan Guerrero";
     return (
-      <div className={classes["photo-and-name"]}>
+      <div className={classes.photoAndName}>
         <img
           src={myProfile}
           className={`${classes.profileImg} margin-center`}
           alt="jon"
         />
         <a href="main-header">
-          <h4 className={classes["headerName"]}>{name}</h4>
+          <h4 className={classes.headerName}>{name}</h4>
         </a>
       </div>
     );
@@ -28,10 +28,10 @@ const Header = () => {
     ];
 
     return (
-      <div className={classes["nav"]}>
+      <div className={classes.nav}>
         {items.map((item) => (
           <h4 key={Math.random()}>
-            <a className={classes["nav-link"]} href={item.href}>
+            <a className={classes.navLink} href={item.href}>
               {item.name}
             </a>
           </h4>
@@ -41,9 +41,9 @@ const Header = () => {
   };
 
   return (
-    <div className={`main-header ${classes["main-header"]} `}>
-      <div className={`${classes["main-nav container p1"]} `}>
-        <nav className={classes["navbar"]}>
+    <div className={`mainHeader ${classes.mainHeader} `}>
+      <div className={`${classes.mainNav}`}>
+        <nav className={classes.navbar}>
           <LeftNav />
           <RightNav />
         </nav>

@@ -1,4 +1,9 @@
-.tech-degree {
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+.techDegree {
   width: 90%;
   max-width: 550px;
 }

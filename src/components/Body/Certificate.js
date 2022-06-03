@@ -28,7 +28,7 @@ const Certificate = () => {
             <a href={certificate.href} target="_blank" rel="noreferrer">
               <h3>{certificate.name2}</h3>
               <img
-                className={`${classes["tech-degree"]}`}
+                className={classes.techDegree}
                 src={certificate.src}
                 alt={certificate.alt}
               />
@@ -40,12 +40,13 @@ const Certificate = () => {
   };
 
   return (
-    <div className={`certificate container`}>
+    <div className={classes.container}>
+      <hr />
       <h1 id="certificate">Certificates</h1>
       <div className="container text-align-center">
         <CertificatesHandler />
-        <hr />
       </div>
+      <hr />
     </div>
   );
 };

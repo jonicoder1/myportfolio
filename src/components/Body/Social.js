@@ -5,6 +5,7 @@ import LinkedInSVG from "../../images/social_media/linkedin.svg";
 import TwitterSVG from "../../images/social_media/twitter.svg";
 import InstagramSVG from "../../images/social_media/Instagram/instagram.svg";
 import DiscordSVG from "../../images/social_media/discord.svg";
+import FacebookJPG from "../../images/social_media/facebook.jpg";
 
 const Contacts = () => {
   const info = [
@@ -17,6 +18,11 @@ const Contacts = () => {
       name: "LinkedIn",
       href: "https://www.linkedin.com/in/jogus/",
       svg: LinkedInSVG,
+    },
+    {
+      name: "Facebook",
+      href: "https://www.facebook.com/joniDeveloper",
+      svg: FacebookJPG,
     },
     {
       name: "Twitter",
@@ -37,7 +43,7 @@ const Contacts = () => {
 
   const Social = () => {
     return (
-      <div className={classes["socialMedia"]}>
+      <div className={classes.socialMedia}>
         {info.map((social) => (
           <figure key={Math.random()} className="animation">
             <a href={social.href} target="_blank" rel="noreferrer">
@@ -51,12 +57,11 @@ const Contacts = () => {
   };
 
   return (
-    <div className={`${classes["social"]} ${"container"}`} id="social">
+    <div className={`${classes.social} container`} id="social">
       <h1>Social</h1>
       <div className="text-align-center">
         <Social />
       </div>
-      <hr />
     </div>
   );
 };
