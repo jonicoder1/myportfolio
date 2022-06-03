@@ -4,6 +4,11 @@
 }
 
 .techDegree {
-  width: 90%;
-  max-width: 550px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-evenly;
 }

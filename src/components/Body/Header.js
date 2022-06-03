@@ -21,6 +21,7 @@ const Header = () => {
   const RightNav = () => {
     const items = [
       { name: "About Me", href: "#aboutMe" },
+      { name: "Web Services", href: "#webServices" },
       { name: "Certificate", href: "#certificate" },
       { name: "Projects", href: "#projects" },
       { name: "Hobbies", href: "#hobbies" },

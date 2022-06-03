@@ -21,7 +21,7 @@ const Certificate = () => {
 
   const CertificatesHandler = () => {
     return (
-      <div>
+      <div className={classes.cardsContainer}>
         {certificates.map((certificate) => (
           <Card key={Math.random()}>
             <h2>{certificate.name1}</h2>
@@ -43,9 +43,7 @@ const Certificate = () => {
     <div className={classes.container}>
       <hr />
       <h1 id="certificate">Certificates</h1>
-      <div className="container text-align-center">
-        <CertificatesHandler />
-      </div>
+      <CertificatesHandler />
       <hr />
     </div>
   );

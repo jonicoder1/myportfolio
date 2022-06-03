@@ -8,14 +8,15 @@
   width: 30%;
   margin: 20px;
   margin: auto;
-  background: grey;
+  background: rgb(59, 59, 59);
   border-radius: 20px;
 }
 
 .topDiv {
   display: flex;
   flex-direction: column;
-  height: 30vh;
+  height: 38vh;
+
   margin: 0 7% 110px 7%;
 }
 
@@ -37,4 +38,11 @@
 
 .cardsContainer {
   display: flex;
+}
+
+.li {
+  background-color: rgb(25, 166, 166);
+  margin: 10px;
+  list-style: none;
+  border-radius: 15px;
 }

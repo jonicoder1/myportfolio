@@ -40,11 +40,19 @@ const WebServices = () => {
     let list2 = [];
 
     for (let i = 0; i < card.list1.length; i++) {
-      list1.push(<li key={Math.random()}>{card.list1[i]}</li>);
+      list1.push(
+        <li key={Math.random()} className={classes.li}>
+          {card.list1[i]}
+        </li>
+      );
     }
 
     for (let i = 0; i < card.list2.length; i++) {
-      list2.push(<li key={Math.random()}>{card.list2[i]}</li>);
+      list2.push(
+        <li key={Math.random()} className={classes.li}>
+          {card.list2[i]}
+        </li>
+      );
     }
 
     return (
@@ -63,7 +71,7 @@ const WebServices = () => {
   });
 
   return (
-    <div className={classes.container}>
+    <div className={classes.container} id="webServices">
       <hr />
       <h1>Web Services Section</h1>
       <h3>Simple Website Design Packages & Pricing</h3>
