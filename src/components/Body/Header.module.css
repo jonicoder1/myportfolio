@@ -1,22 +1,18 @@
-.mainHeader {
-  background: #211e1e;
-  margin-bottom: 100px;
-}
-
 .container {
-  text-align: center;
+  background: var(--neutral-color);
 }
 
 .headerName {
   font-size: 1.2rem;
   padding: 20px;
+  color: var(--primary-color);
 }
 
 .navLink {
   display: inline-block;
-  color: #dde600;
+  color: var(--primary-color);
   width: 70vw;
-  background: rgba(24, 56, 137, 0.85);
+  background: var(--tertiary-color);
   padding: 10px;
   border-radius: 5px;
 }

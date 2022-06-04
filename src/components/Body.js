@@ -16,7 +16,6 @@ const Body = () => {
           <Header />
           <AboutMe />
           <WebServices />
-
           <Certificate />
           <Skills />
           <Projects />

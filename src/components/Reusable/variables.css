@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #81f2ee;
+  --secondary-color: #157b82;
+  --tertiary-color: #15546b;
+  --quaternary-color: #0f4152;
+
+  --neutral-color: rgb(59, 59, 59);
+
+  --button-color: aqua;
+}

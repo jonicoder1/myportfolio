@@ -52,6 +52,7 @@ const Skills = () => {
 
   return (
     <div className={classes.container}>
+      <h1 id="skills">Skills</h1>
       <table>
         <tbody>
           <tr className={classes.tr}>{newList}</tr>

@@ -41,10 +41,8 @@ const Certificate = () => {
 
   return (
     <div className={classes.container}>
-      <hr />
       <h1 id="certificate">Certificates</h1>
       <CertificatesHandler />
-      <hr />
     </div>
   );
 };

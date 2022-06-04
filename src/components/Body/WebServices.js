@@ -1,6 +1,15 @@
+import reactDom from "react-dom";
 import classes from "./WebServices.module.css";
 
 const WebServices = () => {
+  let listTwo = [
+    "Domain Name ( 1 Year )",
+    "Web Hosting Setup",
+    "50 email accounts",
+    "Web Security ( SSL ) ( 1 Year )",
+    "Free Pages: Privacy, Terms & Disclaimer",
+  ];
+
   const cards = [
     {
       Title: "Basic",
@@ -8,19 +17,12 @@ const WebServices = () => {
       list1: [
         "2-3 Web Pages",
         "Responsive Website",
-
         "Image Slider",
         "Stock Photos",
         "Contact Form",
         "About Us, Services & Contact Us",
       ],
-      list2: [
-        "Domain Name ( 1 Year )",
-        "Web Hosting Setup",
-        "50 email accounts",
-        "Web Security ( SSL ) ( 1 Year )",
-        "Free Pages: Privacy, Terms & Disclaimer",
-      ],
+      list2: listTwo,
       button: "Buy Now",
     },
     {
@@ -29,7 +31,6 @@ const WebServices = () => {
       list1: [
         "4-5 Web Pages",
         "Responsive Website",
-
         "Image Slider",
         "Stock Photos",
         "Contact Form",
@@ -37,13 +38,7 @@ const WebServices = () => {
         "Social Network Links",
         "About Us, Services, Contact Us & Detail",
       ],
-      list2: [
-        "Domain Name ( 1 Year )",
-        "Web Hosting Setup",
-        "50 email accounts",
-        "Web Security ( SSL ) ( 1 Year )",
-        "Free Pages: Privacy, Terms & Disclaimer",
-      ],
+      list2: listTwo,
       button: "Buy Now",
     },
     {
@@ -60,13 +55,7 @@ const WebServices = () => {
         "About Us, Services, Contact Us & Detail",
         "Custom Page Elements",
       ],
-      list2: [
-        "Domain Name ( 1 Year )",
-        "Web Hosting Setup",
-        "50 email accounts",
-        "Web Security ( SSL ) ( 1 Year )",
-        "Free Pages: Privacy, Terms & Disclaimer",
-      ],
+      list2: listTwo,
       button: "Buy Now",
     },
   ];
@@ -79,11 +68,9 @@ const WebServices = () => {
 
     for (let i = 0; i < card.list1.length; i++) {
       list1.push(
-        <div>
-          <li key={Math.random()} className={classes.li}>
-            {card.list1[i]}
-          </li>
-        </div>
+        <li key={Math.random()} className={classes.li}>
+          {card.list1[i]}
+        </li>
       );
     }
 
@@ -111,13 +98,12 @@ const WebServices = () => {
   });
 
   return (
-    <div className={classes.container} id="webServices">
-      <hr />
+    <div className={classes.container}>
       <div className={classes.header}>
-        <h1>Web Services Section</h1>
+        <h1 id="webServices">Web Services Section</h1>
         <h3>Simple Website Design Packages & Pricing</h3>
       </div>
-      <div className={`${classes.cardsContainer}`}>{CardsMap}</div>
+      <div className={classes.cardsContainer}>{CardsMap}</div>
     </div>
   );
 };

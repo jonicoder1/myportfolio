@@ -1,18 +1,19 @@
 .container {
-  height: auto;
-  margin: 150px auto;
-  width: 90vw;
-}
-
-.header {
-  padding: 35px;
+  width: 100vw;
+  background-color: var(--quaternary-color);
+  padding-bottom: 150px;
 }
 
 .cardsContainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 90vw;
   height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--secondary-color);
 }
 
 .card {
@@ -20,7 +21,7 @@
   flex-direction: column;
   width: 90%;
   margin: 20px auto;
-  background: rgb(59, 59, 59);
+  background: var(--neutral-color);
   border-radius: 20px;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .li {
-  background-color: rgb(22, 129, 129);
+  background-color: var(--tertiary-color);
   margin: 10px auto;
   text-align: left;
   list-style: none;
@@ -46,7 +47,7 @@
 }
 
 .button {
-  background-color: aqua;
+  background-color: var(--button-color);
   border-radius: 20px;
   margin: 15px;
   align-self: flex-end;

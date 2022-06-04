@@ -1,7 +1,6 @@
 .container {
-  height: 50vh;
-  width: 80vw;
-  margin: auto;
+  width: 100vw;
+  background-color: var(--quaternary-color);
 }
 
 .tr {

@@ -4,7 +4,7 @@ import Card from "../UI/Card";
 const ProjectHandler = (props) => {
   const FrontEndProjects = () => {
     return (
-      <div className={classes.row}>
+      <div className={classes.cardsContainer}>
         {props.lists.map((project) => (
           <Card key={Math.random()}>
             <div className={classes.card}>

@@ -1,6 +1,9 @@
 .container {
   height: auto;
+  width: 100vw;
+  background-color: var(--tertiary-color);
 }
+
 .galleryContainer {
   display: grid;
   width: 80vw;

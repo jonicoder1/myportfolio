@@ -2,8 +2,8 @@ import classes from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={classes.footer}>
-      <div className="container">
+    <footer className={classes.container}>
+      <div>
         <div className="row">
           <div>
             <a href="main-header">back to top</a>

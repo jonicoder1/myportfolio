@@ -34,7 +34,9 @@ main {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
+  padding: 60px;
+  color: var(--primary-color);
 }
 
 /* Grouping content
@@ -402,11 +404,6 @@ html {
   clear: both;
 }
 
-.container {
-  width: 93%;
-  margin: 100px auto;
-}
-
 .img-thumbnail {
   border: 5px white;
 }
@@ -456,11 +453,11 @@ table {
 }
 
 th {
-  background-color: rgba(11, 69, 69, 0.154);
+  background-color: var(--tertiary-color);
 }
 
 td {
-  background-color: darkcyan;
+  background-color: var(--secondary-color);
   padding: 0px 12px;
 }
 

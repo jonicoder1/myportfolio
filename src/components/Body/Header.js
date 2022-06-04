@@ -42,7 +42,7 @@ const Header = () => {
   };
 
   return (
-    <div className={`mainHeader ${classes.mainHeader} `}>
+    <div className={classes.container}>
       <div className={`${classes.mainNav}`}>
         <nav className={classes.navbar}>
           <LeftNav />

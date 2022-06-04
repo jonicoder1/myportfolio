@@ -1,6 +1,6 @@
 .container {
-  width: 90vw;
-  margin: auto;
+  width: 100vw;
+  background-color: var(--tertiary-color);
 }
 
 .techDegree {
