@@ -5,7 +5,7 @@ const Sheet = () => {
   return (
     <div>
       <h3 className="mb-3">Learning Languages</h3>
-      <table>
+      <table className={classes.table}>
         <tbody>
           <tr>
             <th>1</th>

@@ -3,6 +3,10 @@
   background-color: var(--quaternary-color);
 }
 
+table {
+  margin: auto;
+}
+
 .tr {
   display: flex;
   flex-wrap: wrap;

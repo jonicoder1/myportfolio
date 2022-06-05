@@ -8,10 +8,12 @@ import Hobbies from "./Body/Hobbies";
 import Social from "./Body/Social";
 import Contact from "./Body/Contact";
 
+import classes from "./body.module.css";
+
 const Body = () => {
   return (
-    <div lang="en">
-      <div className={`text-white`}>
+    <div className={classes.container} lang="en">
+      <div>
         <div>
           <Header />
           <AboutMe />

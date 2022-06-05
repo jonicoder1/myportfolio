@@ -1,17 +1,24 @@
 .container {
   width: 100vw;
-  background-color: var(--tertiary-color);
-}
+  padding: 20px;
 
-.techDegree {
-  width: 100%;
-  max-width: 350px;
+  background-color: var(--tertiary-color);
 }
 
 .cardsContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  border-radius: 20px;
+  width: 90vw;
+  margin: auto;
+  padding: 50px;
+  background-color: var(--secondary-color);
+}
+
+.techDegree {
+  width: 100%;
+  max-width: 350px;
 }
 
 @media only screen and (min-width: 750px) {

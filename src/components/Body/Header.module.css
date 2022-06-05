@@ -1,5 +1,6 @@
 .container {
-  background: var(--neutral-color);
+  background: var(--dark-color);
+  width: 100vw;
 }
 
 .headerName {
