@@ -1,4 +1,3 @@
-import reactDom from "react-dom";
 import classes from "./WebServices.module.css";
 
 const WebServices = () => {
@@ -60,11 +59,39 @@ const WebServices = () => {
     },
   ];
 
+  const pricingLevels = [
+    {
+      name: "Basic",
+      price: 295,
+      message: "BASIC PACKAGE ONLY",
+      totalPackageMessage: "BASIC TOTAL PACKAGE",
+      priceTotalPackage: 658,
+    },
+    {
+      name: "Intermediate",
+      price: 449,
+      message: "INTERMEDIATE PACKAGE ONLY",
+      totalPackageMessage: "INTERMEDIATE TOTAL PACKAGE",
+      priceTotalPackage: 749,
+    },
+    {
+      name: "Advanced",
+      price: 849,
+      message: "ADVANCED PACKAGE ONLY",
+      totalPackageMessage: "ADVANCED TOTAL PACKAGE",
+      priceTotalPackage: 1349,
+    },
+  ];
+
   const CardsMap = cards.map((card) => {
+    let price = "";
+    let packages = "";
+    let totalPackageMessage = "";
+    let priceTotalPackage = "";
+    const list1 = [];
+    const list2 = [];
     const buyNow = <button className={classes.button}>Buy Now</button>;
     const Title = <h3>{card.Title}</h3>;
-    let list1 = [];
-    let list2 = [];
 
     for (let i = 0; i < card.list1.length; i++) {
       list1.push(
@@ -82,15 +109,32 @@ const WebServices = () => {
       );
     }
 
+    for (let i = 0; i < pricingLevels.length; i++) {
+      if (card.Title === pricingLevels[i].name) {
+        price = `$${pricingLevels[i].price}`;
+        packages = `${pricingLevels[i].message}`;
+        totalPackageMessage = `${pricingLevels[i].totalPackageMessage}`;
+        priceTotalPackage = `$${pricingLevels[i].priceTotalPackage}`;
+      }
+    }
+
     return (
       <div className={classes.card} key={card.id}>
         {Title}
         <div className={classes.topDiv}>
           <ul>{list1}</ul>
+          <h5>
+            {packages}
+            <br />
+            {price}
+          </h5>
           {buyNow}
         </div>
         <div className={classes.botDiv}>
           <ul>{list2}</ul>
+          <h5>
+            {totalPackageMessage} <br /> {priceTotalPackage}
+          </h5>
           {buyNow}
         </div>
       </div>
@@ -99,7 +143,7 @@ const WebServices = () => {
 
   return (
     <div className={classes.container}>
-      <div className={classes.header}>
+      <div>
         <h1 id="webServices">Web Services Section</h1>
         <h2>Simple Website Design Packages & Pricing</h2>
       </div>

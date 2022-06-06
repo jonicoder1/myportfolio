@@ -39,7 +39,7 @@
 
 .li {
   background-color: var(--tertiary-color);
-  margin: 10px auto;
+  margin: 4px auto;
   text-align: left;
   list-style: none;
   border-radius: 15px;
