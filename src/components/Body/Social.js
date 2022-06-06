@@ -3,7 +3,7 @@ import classes from "./Social.module.css";
 import GithubSVG from "../../images/social_media/github.svg";
 import LinkedInSVG from "../../images/social_media/linkedin.svg";
 import TwitterSVG from "../../images/social_media/twitter.svg";
-import InstagramSVG from "../../images/social_media/Instagram/instagram.svg";
+import InstagramSVG from "../../images/social_media/Instagram/Instagram.svg";
 import DiscordSVG from "../../images/social_media/discord.svg";
 import FacebookJPG from "../../images/social_media/facebook.jpg";
 
