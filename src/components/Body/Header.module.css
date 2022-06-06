@@ -12,9 +12,8 @@
 .navLink {
   display: inline-block;
   color: var(--primary-color);
-  width: 70vw;
   background: var(--tertiary-color);
-  padding: 10px;
+  padding: 8px;
   border-radius: 5px;
 }
 

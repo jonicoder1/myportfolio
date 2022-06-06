@@ -3,7 +3,7 @@ import Head from "./components/Head";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import "./css/styles.css";
-import "./components/Reusable/variables.css";
+import "./css/variables.css";
 import React from "react";
 
 function App() {

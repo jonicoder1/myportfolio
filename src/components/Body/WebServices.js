@@ -62,7 +62,7 @@ const WebServices = () => {
 
   const CardsMap = cards.map((card) => {
     const buyNow = <button className={classes.button}>Buy Now</button>;
-    const Title = <h4>{card.Title}</h4>;
+    const Title = <h3>{card.Title}</h3>;
     let list1 = [];
     let list2 = [];
 
@@ -101,7 +101,7 @@ const WebServices = () => {
     <div className={classes.container}>
       <div className={classes.header}>
         <h1 id="webServices">Web Services Section</h1>
-        <h3>Simple Website Design Packages & Pricing</h3>
+        <h2>Simple Website Design Packages & Pricing</h2>
       </div>
       <div className={classes.cardsContainer}>{CardsMap}</div>
     </div>
