@@ -6,7 +6,7 @@ import Mobile_first_Responsive_Layout from "../../images/projects/Mobile_first_R
 import An_Online_Registration_Form from "../../images/projects/An_Online_Registration_Form.jpg";
 import Interactive_Photo_Gallery from "../../images/projects/Interactive_Photo_Gallery.jpg";
 import Web_Style_Guide from "../../images/projects/Web_Style_Guide.jpg";
-import ProjectsListHandler from "./ProjectsList";
+import ProjectHandler from "./ProjectsList";
 import classes from "./Projects.module.css";
 
 const Projects = () => {
@@ -90,7 +90,7 @@ const Projects = () => {
     <div className={classes.container}>
       <div className={classes.innerContainer}>
         <h1 id="projects">Projects</h1>
-        <ProjectsListHandler lists={ProjectList} />
+        <ProjectHandler lists={ProjectList} />
       </div>
     </div>
   );
