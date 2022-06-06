@@ -469,13 +469,13 @@ td {
 }
 
 figcaption {
+  color: var(--primary-color);
   padding: 5px;
   line-height: 1;
   bottom: 3.1px;
   width: 100%;
   height: auto;
   opacity: 70%;
-  min-height: 70px;
 }
 
 figcaption:hover {

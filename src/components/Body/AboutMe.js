@@ -32,9 +32,7 @@ const AboutMe = () => {
           <Card key={Math.random()}>
             <figure>
               <img src={photo.src} alt={photo.name} />
-              <figcaption>
-                <h4>{photo.caption}</h4>
-              </figcaption>
+              <figcaption>{photo.caption}</figcaption>
             </figure>
           </Card>
         ))}
