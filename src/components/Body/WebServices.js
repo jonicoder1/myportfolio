@@ -1,4 +1,5 @@
 import classes from "./WebServices.module.css";
+import CardsMap from "./WebServicesList";
 
 const WebServices = () => {
   let listTwo = [
@@ -83,71 +84,19 @@ const WebServices = () => {
     },
   ];
 
-  const CardsMap = cards.map((card) => {
-    let price = "";
-    let packages = "";
-    let totalPackageMessage = "";
-    let priceTotalPackage = "";
-    const list1 = [];
-    const list2 = [];
-    const buyNow = <button className={classes.button}>Buy Now</button>;
-    const Title = <h3>{card.Title}</h3>;
-
-    for (let i = 0; i < card.list1.length; i++) {
-      list1.push(
-        <li key={Math.random()} className={classes.li}>
-          {card.list1[i]}
-        </li>
-      );
-    }
-
-    for (let i = 0; i < card.list2.length; i++) {
-      list2.push(
-        <li key={Math.random()} className={classes.li}>
-          {card.list2[i]}
-        </li>
-      );
-    }
-
-    for (let i = 0; i < pricingLevels.length; i++) {
-      if (card.Title === pricingLevels[i].name) {
-        price = `$${pricingLevels[i].price}`;
-        packages = `${pricingLevels[i].message}`;
-        totalPackageMessage = `${pricingLevels[i].totalPackageMessage}`;
-        priceTotalPackage = `$${pricingLevels[i].priceTotalPackage}`;
-      }
-    }
-
-    return (
-      <div className={classes.card} key={card.id}>
-        {Title}
-        <div className={classes.topDiv}>
-          <ul>{list1}</ul>
-          <h5>
-            {packages}
-            <br />
-            {price}
-          </h5>
-          {buyNow}
-        </div>
-        <div className={classes.botDiv}>
-          <ul>{list2}</ul>
-          <h5>
-            {totalPackageMessage} <br /> {priceTotalPackage}
-          </h5>
-          {buyNow}
-        </div>
-      </div>
-    );
-  });
-
   return (
     <div className={classes.container}>
       <div>
         <h1 id="webServices">Web Services Section</h1>
         <h2>Simple Website Design Packages & Pricing</h2>
       </div>
-      <div className={classes.cardsContainer}>{CardsMap}</div>
+      <div className={classes.cardsContainer}>
+        <CardsMap
+          cards={cards}
+          pricingLevels={pricingLevels}
+          classes={classes}
+        />
+      </div>
     </div>
   );
 };
