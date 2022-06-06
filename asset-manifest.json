@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.0d78c000.chunk.css",
-    "main.js": "/myportfolio/static/js/main.d6e1e2b0.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.d6e1e2b0.chunk.js.map",
-    "runtime-main.js": "/myportfolio/static/js/runtime-main.d7e242d8.js",
-    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.d7e242d8.js.map",
-    "static/js/2.48d6bcd2.chunk.js": "/myportfolio/static/js/2.48d6bcd2.chunk.js",
-    "static/js/2.48d6bcd2.chunk.js.map": "/myportfolio/static/js/2.48d6bcd2.chunk.js.map",
-    "static/js/3.38acf7b3.chunk.js": "/myportfolio/static/js/3.38acf7b3.chunk.js",
-    "static/js/3.38acf7b3.chunk.js.map": "/myportfolio/static/js/3.38acf7b3.chunk.js.map",
+    "main.css": "/myportfolio/static/css/main.56c4096d.chunk.css",
+    "main.js": "/myportfolio/static/js/main.1765dd76.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.1765dd76.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.42b08b7d.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.42b08b7d.js.map",
+    "static/js/2.9c23fa79.chunk.js": "/myportfolio/static/js/2.9c23fa79.chunk.js",
+    "static/js/2.9c23fa79.chunk.js.map": "/myportfolio/static/js/2.9c23fa79.chunk.js.map",
     "index.html": "/myportfolio/index.html",
-    "static/css/main.0d78c000.chunk.css.map": "/myportfolio/static/css/main.0d78c000.chunk.css.map",
-    "static/js/2.48d6bcd2.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.48d6bcd2.chunk.js.LICENSE.txt",
+    "static/css/main.56c4096d.chunk.css.map": "/myportfolio/static/css/main.56c4096d.chunk.css.map",
+    "static/js/2.9c23fa79.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.9c23fa79.chunk.js.LICENSE.txt",
     "static/media/An_Online_Registration_Form.36ee8599.jpg": "/myportfolio/static/media/An_Online_Registration_Form.36ee8599.jpg",
     "static/media/Interactive_Photo_Gallery.428836a3.jpg": "/myportfolio/static/media/Interactive_Photo_Gallery.428836a3.jpg",
     "static/media/Mobile_first_Responsive_Layout.4bf086af.jpg": "/myportfolio/static/media/Mobile_first_Responsive_Layout.4bf086af.jpg",
@@ -33,9 +31,9 @@
     "static/media/twitter.b67bf84c.svg": "/myportfolio/static/media/twitter.b67bf84c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7e242d8.js",
-    "static/js/2.48d6bcd2.chunk.js",
-    "static/css/main.0d78c000.chunk.css",
-    "static/js/main.d6e1e2b0.chunk.js"
+    "static/js/runtime-main.42b08b7d.js",
+    "static/js/2.9c23fa79.chunk.js",
+    "static/css/main.56c4096d.chunk.css",
+    "static/js/main.1765dd76.chunk.js"
   ]
 }
