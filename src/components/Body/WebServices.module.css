@@ -21,6 +21,7 @@
   flex-direction: column;
   width: 90%;
   margin: 20px auto;
+  padding: 15px;
   background: var(--neutral-color);
   border-radius: 20px;
 }
@@ -29,12 +30,18 @@
   display: flex;
   flex-direction: column;
   padding: 10px 7% 10px 7%;
+  border-radius: 20px;
+  margin: 0 0 15px 0;
+  background-color: var(--quaternary-color);
 }
 
 .botDiv {
   display: flex;
   flex-direction: column;
-  margin: auto 7% 10px 7%;
+  margin: auto 0 0 0;
+  padding: 10px 7% 10px 7%;
+  border-radius: 20px;
+  background-color: var(--quaternary-color);
 }
 
 .li {

@@ -87,7 +87,7 @@ const WebServices = () => {
   return (
     <div className={classes.container}>
       <div>
-        <h1 id="webServices">Web Services Section</h1>
+        <h1 id="webServices">Web Services</h1>
         <h2>Simple Website Design Packages & Pricing</h2>
       </div>
       <div className={classes.cardsContainer}>
