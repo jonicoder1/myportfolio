@@ -1,0 +1,13 @@
+.contact .email {
+  display: block;
+  width: 100vw;
+  padding: 15px;
+}
+
+.form-control {
+  text-align: left;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}

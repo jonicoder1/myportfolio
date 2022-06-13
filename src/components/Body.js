@@ -1,12 +1,13 @@
-import MainHeader from "./Body/MainHeader";
+import MainHeader from "./Body/MainHeader/MainHeader";
 import AboutMe from "./Body/AboutMe/AboutMe";
-import WebServices from "./Body/WebServices";
-import Skills from "./Body/Skills";
-import Certificate from "./Body/Certificate";
-import Projects from "./Body/Projects";
-import Social from "./Body/Social";
-import Footer from "./Body/Footer";
-import Contact from "./Body/Contact";
+import WebServices from "./Body/WebServices/WebServices";
+import Skills from "./Body/Skills/Skills";
+import Certificate from "./Body/Certificate/Certificate";
+import Projects from "./Body/Projects/Projects";
+import Social from "./Body/Social/Social";
+import Footer from "./Body/Footer/Footer";
+import ForSale from "./Body/ForSale/ForSale";
+import Contact from "./Body/Contact/Contact";
 
 import classes from "./body.module.css";
 
@@ -20,6 +21,7 @@ const Body = () => {
         <main>
           <Route path="/AboutMe">
             <AboutMe />
+            <Social />
           </Route>
           <Route path="/WebServices">
             <WebServices />
@@ -33,14 +35,15 @@ const Body = () => {
           <Route path="/Projects">
             <Projects />
           </Route>
+          <Route path="/ForSale">
+            <ForSale />
+          </Route>
           <Route path="/Social">
             <Social />
           </Route>
           <Route path="/Contact">{/* <Contact /> */}</Route>
-          <Route path="/Footer">
-            <Footer />
-          </Route>
         </main>
+        <Footer />
       </div>
     </div>
   );
