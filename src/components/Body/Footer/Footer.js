@@ -6,7 +6,7 @@ const Footer = () => {
       <div>
         <div className="row">
           <div>
-            <a href="#header">back to top</a>
+            <a href="#">back to top</a>
           </div>
           <div>
             <p>©J Guerrero</p>

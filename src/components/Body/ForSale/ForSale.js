@@ -4,6 +4,7 @@ import products from "./Products";
 let ForSale = () => {
   const theProducts = products.map((product) => (
     <div className={classes.card} key={Math.random()}>
+      <h4 className={classes.forSale}>For Sale</h4>
       <div className={classes.images}>
         <h2 className="product-name">{product.name}</h2>
         <img
@@ -30,8 +31,11 @@ let ForSale = () => {
         />
       </div>
       <div className={classes.text}>
-        <h3 className="price">{product.price}</h3>
-        <h4 className="used">{product.used}</h4>
+        <h3 className={classes.price}>{product.price}</h3>
+        <h4 className={classes.used}>{product.used}</h4>
+        <br />
+        <br />
+        <br />
         <h4 className="description">{product.description}</h4>
       </div>
       <div className={classes.email}>

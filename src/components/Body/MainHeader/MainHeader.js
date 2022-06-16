@@ -37,6 +37,7 @@ const MainHeader = () => {
         <img
           src={myProfile}
           className={`${classes.profileImg} margin-center`}
+          id="#profile"
           alt="jon"
         />
         <a href="main-header">

@@ -7,6 +7,7 @@
 
 .card {
   display: flex;
+  position: relative;
   flex-direction: column;
   width: 25%;
   min-width: 390px;
@@ -18,16 +19,47 @@
   color: black;
 }
 
+.card .text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.forSale {
+  position: absolute;
+  right: 0px;
+  top: 220px;
+  background-color: rgba(255, 0, 0, 0.674);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 20px;
+}
+
+.price {
+  display: inline;
+  position: absolute;
+  padding: 13px;
+  border-radius: 10px;
+  left: 0px;
+  margin: 10px;
+  background-color: var(--secondary-color);
+}
+
+.used {
+  position: absolute;
+  padding: 13px;
+  border-radius: 10px;
+  background-color: var(--quaternary-color);
+  right: 0;
+  margin: 10px;
+  text-align: left;
+}
+
 .card .images {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.card .text {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
 }
 
 .card .images .small_photo {

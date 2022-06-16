@@ -101,7 +101,7 @@ let product_name = [
     img_url2: Onitsuka2,
     img_url3: Onitsuka3,
     img_url4: Onitsuka4,
-    price: "$" + 16,
+    price: "$" + 39,
     description: "Onitsuka Tiger White",
     used: "used",
   },
