@@ -2,153 +2,127 @@ import React, { useState } from "react";
 import classes from "./Contact.module.css";
 
 const Form = () => {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [enteredFirstName, setEnteredFirstName] = useState(true);
-  const [enteredLastName, setEnteredLastName] = useState(true);
-  const [enteredEmail, setEnteredEmail] = useState(true);
-  const [enteredMessage, setEnteredMessage] = useState(true);
+  const [values, setValues] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    message: "",
+  });
 
-  // console.log(`Last name is ${enteredLastName}`);
+  const [submitted, setSubmitted] = useState(false);
+  const [valid, setValid] = useState(false);
 
   const setFirstNameHandler = (e) => {
-    setFirstName(e.target.value);
-    console.log(e.target.value);
+    setValues({ ...values, firstName: e.target.value });
   };
 
   const setLastNameHandler = (e) => {
-    setLastName(e.target.value);
-    console.log(e.target.value);
+    setValues({ ...values, lastName: e.target.value });
   };
 
   const setEmailHandler = (e) => {
-    setEmail(e.target.value);
-    console.log(e.target.value);
+    setValues({ ...values, email: e.target.value });
   };
 
   const setMessageHandler = (e) => {
-    setMessage(e.target.value);
-    console.log(e.target.value);
+    setValues({ ...values, message: e.target.value });
   };
 
   const submitFormHandler = (e) => {
     e.preventDefault();
-
-    if (firstName.trim() === "") {
-      setEnteredFirstName(false);
-      return;
+    if (values.firstName && values.lastName && values.email && values.message) {
+      setValid(true);
     }
-    setEnteredFirstName(true);
-
-    if (lastName.trim() === "") {
-      setEnteredLastName(false);
-      return;
-    }
-    setEnteredLastName(true);
-
-    if (email.trim() === "") {
-      setEnteredEmail(false);
-      return;
-    }
-    setEnteredEmail(true);
-
-    if (message.trim() === "") {
-      setEnteredMessage(false);
-      return;
-    }
-    setEnteredMessage(true);
-
-    const valueIsValid =
-      enteredFirstName && enteredLastName && enteredEmail && enteredMessage;
-
-    if (valueIsValid) {
-      setFirstName("");
-      setLastName("");
-      setEmail("");
-      setMessage("");
-      console.log(enteredFirstName);
-      console.log(enteredLastName);
-      console.log(enteredEmail);
-      console.log(enteredMessage);
-      console.log("form is Valid");
-      alert("Your email has been sent!");
-    }
+    setSubmitted(true);
   };
 
   return (
-    <form onSubmit={submitFormHandler}>
-      <div className={classes["control-group"]}>
-        <div className={classes["form-control"]}>
-          <label htmlFor="name">First Name</label>
+    <div className={classes.container}>
+      <form onSubmit={submitFormHandler}>
+        {submitted && valid ? (
+          <div className={classes.success_message}>
+            Form has been submitted!
+          </div>
+        ) : null}
+
+        {submitted && !valid ? (
+          <div className={classes.failed_message}>Form was not submitted! </div>
+        ) : null}
+
+        <div className={classes.form_control}>
           <input
             id="name"
             type="text"
             name="fist-name"
             onChange={setFirstNameHandler}
-            value={firstName}
+            placeholder="First Name"
+            value={values.firstName}
           />
-          {!enteredFirstName && <p>Error</p>}
+          {submitted && !values.firstName ? (
+            <span className={classes.input_error_message}>
+              please enter your name
+            </span>
+          ) : null}
         </div>
-        <div className={classes["form-control"]}>
-          <label htmlFor="name">Last Name</label>
+        <div className={classes.form_control}>
           <input
             id="name"
             type="text"
             name="last-name"
             onChange={setLastNameHandler}
-            value={lastName}
+            placeholder="Last Name"
+            value={values.lastName}
           />
-          {!enteredLastName && <p>Error</p>}
+          {submitted && valid && !values.lastName ? (
+            <span className={classes.input_error_message}>
+              please enter your last name
+            </span>
+          ) : null}
         </div>
-        <div className={classes["form-control"]}>
-          <label htmlFor="name">Email</label>
+        <div className={classes.form_control}>
           <input
             id="name"
             type="email"
             name="email"
             onChange={setEmailHandler}
-            value={email}
+            placeholder="Email"
+            value={values.email}
           />
-          {!enteredEmail && <p>Error</p>}
+          {submitted && valid && !values.email ? (
+            <span className={classes.input_error_message}>
+              please enter your email
+            </span>
+          ) : null}
         </div>
-        <div className={classes["form-control"]}>
-          <label htmlFor="name">Message</label>
+        <div className={classes.form_control}>
           <textarea
             id="name"
             type="comment"
             name="message"
             onChange={setMessageHandler}
-            value={message}
+            placeholder="Message"
+            value={values.message}
             rows="5"
           />
-          {!enteredMessage && <p>Error</p>}
+          {submitted && valid && !values.message ? (
+            <span className={classes.input_error_message}>
+              please enter a comment
+            </span>
+          ) : null}
         </div>
-      </div>
-      <div className="form-actions">
-        <button>Submit</button>
-      </div>
-    </form>
+        <div className="form-actions">
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
   );
 };
 
 const Contact = () => {
-  const [theState, setState] = useState(false);
-
   return (
-    <div className={`${classes["contact"]} ${"container"}`} id="contact">
+    <div className={classes.container} id="contact">
       <h1>Contact</h1>
-      {!theState && (
-        <button
-          onClick={() => {
-            setState(!theState);
-          }}
-        >
-          Show Form
-        </button>
-      )}
-      {theState && <Form />}
+      <Form />
     </div>
   );
 };

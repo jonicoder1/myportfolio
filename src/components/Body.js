@@ -41,7 +41,9 @@ const Body = () => {
           <Route path="/Social">
             <Social />
           </Route>
-          <Route path="/Contact">{/* <Contact /> */}</Route>
+          <Route path="/Contact">
+            <Contact />
+          </Route>
         </main>
         <Footer />
       </div>

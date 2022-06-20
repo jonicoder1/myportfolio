@@ -476,10 +476,6 @@ figcaption {
   opacity: 70%;
 }
 
-figcaption:hover {
-  font-size: x-large;
-}
-
 img {
   width: 100%;
   border-radius: 8px;
