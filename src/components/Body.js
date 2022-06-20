@@ -45,7 +45,7 @@ const Body = () => {
             <Contact />
           </Route>
         </main>
-        <Footer />
+        <Footer className={classes.footer} />
       </div>
     </div>
   );

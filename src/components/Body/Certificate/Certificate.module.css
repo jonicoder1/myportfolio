@@ -1,8 +1,12 @@
 .container {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   padding: 20px 20px 100px 20px;
   background-color: var(--tertiary-color);
+}
+
+.footer {
+  bottom: 0px;
 }
 
 .cardsContainer {
@@ -13,7 +17,6 @@
   width: 90vw;
   margin: auto;
   padding: 50px;
-
   background-color: var(--secondary-color);
 }
 

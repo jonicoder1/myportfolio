@@ -1,5 +1,6 @@
 .container {
-  height: 80vh;
+  margin-bottom: 100px;
+  height: auto;
 }
 
 .contact .email {

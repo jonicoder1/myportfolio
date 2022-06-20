@@ -8,6 +8,7 @@
   display: grid;
   width: 80vw;
   margin: auto;
+  margin-bottom: 150px;
 }
 
 @media only screen and (min-width: 768px) {
