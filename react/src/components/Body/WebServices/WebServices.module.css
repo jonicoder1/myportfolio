@@ -1,0 +1,80 @@
+.container {
+  width: 100vw;
+  background-color: var(--quaternary-color);
+  padding-bottom: 150px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--secondary-color);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  background: var(--neutral-color);
+  border-radius: 20px;
+}
+
+.topDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 7% 10px 7%;
+  border-radius: 20px;
+  margin: 0 0 15px 0;
+  background-color: var(--quaternary-color);
+}
+
+.botDiv {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0 0 0;
+  padding: 10px 7% 10px 7%;
+  border-radius: 20px;
+  background-color: var(--quaternary-color);
+}
+
+.li {
+  background-color: var(--tertiary-color);
+  margin: 4px auto;
+  text-align: left;
+  list-style: none;
+  border-radius: 15px;
+  padding: 10px 20px 10px 20px;
+}
+
+.button {
+  background-color: var(--button-color);
+  border-radius: 20px;
+  margin: 15px;
+  align-self: flex-end;
+  padding: 10px;
+  border: 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+  .cardsContainer {
+    flex-direction: row;
+  }
+
+  .card {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .card {
+    width: 30%;
+  }
+}

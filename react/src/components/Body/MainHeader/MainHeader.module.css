@@ -1,0 +1,69 @@
+.container {
+  background: var(--dark-color);
+  width: 100vw;
+}
+
+.headerName {
+  font-size: 1.2rem;
+  padding: 20px;
+  color: var(--primary-color);
+}
+
+.navLink {
+  display: inline-block;
+  color: var(--primary-color);
+  background: var(--tertiary-color);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+a:active,
+a:hover,
+a.active {
+  color: aqua;
+}
+
+.profileImg {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: block;
+}
+
+.profileImg:hover {
+  animation: spin 1.5s ease-in-out 0s forwards;
+}
+
+@keyframes spin {
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mainNav {
+    padding: 15px;
+  }
+
+  .navbar {
+    display: flex;
+    margin-right: auto;
+    justify-content: space-around;
+    padding: 30px;
+  }
+
+  .photoAndName {
+    display: flex;
+  }
+
+  .nav {
+    display: flex;
+    align-self: center;
+  }
+
+  .navLink {
+    width: 11vw;
+    margin: 0 3px;
+    min-width: 100px;
+  }
+}

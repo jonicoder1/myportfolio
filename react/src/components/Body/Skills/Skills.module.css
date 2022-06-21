@@ -1,0 +1,27 @@
+.container {
+  width: 100vw;
+  background-color: var(--quaternary-color);
+}
+
+table {
+  margin: auto;
+}
+
+.tr {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 30px;
+}
+
+.td {
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+@media only screen and (min-width: 800px) {
+  .td {
+    margin-top: 40px;
+    padding: 20px;
+  }
+}
