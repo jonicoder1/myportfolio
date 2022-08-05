@@ -10,7 +10,7 @@ const MainHeader = () => {
       { name: "Certificate", href: "/Certificate" },
       { name: "Projects", href: "/Projects" },
       { name: "ForSale", href: "/ForSale" },
-      { name: "Contact", href: "/Contact" },
+      // { name: "Contact", href: "/Contact" },
       { name: "TestSale", href: "/TestSale" },
     ];
 
