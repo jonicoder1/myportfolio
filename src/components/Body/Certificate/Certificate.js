@@ -33,12 +33,12 @@ const Certificate = () => {
           <Card key={Math.random()}>
             <h2>{certificate.name1}</h2>
             <a href={certificate.href} target="_blank" rel="noreferrer">
-              <h3>{certificate.name2}</h3>
               <img
                 className={classes.techDegree}
                 src={certificate.src}
                 alt={certificate.alt}
               />
+              <h4>{certificate.name2}</h4>
             </a>
           </Card>
         ))}
