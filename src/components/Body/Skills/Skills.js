@@ -32,6 +32,9 @@ const Skills = () => {
       name: "SASS",
     },
     {
+      name: "Stripe",
+    },
+    {
       name: "Github",
     },
     {

@@ -360,30 +360,6 @@ html {
   box-sizing: inherit;
 }
 
-.m1 {
-  margin: 100px;
-}
-
-.m2 {
-  margin: 20px;
-}
-
-.m3 {
-  margin: 10px;
-}
-
-.p1 {
-  padding: 40px;
-}
-
-.p2 {
-  padding: 20px;
-}
-
-.p3 {
-  padding: 10px;
-}
-
 .bg-dark {
   background: #2a2a2a;
 }

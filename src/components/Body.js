@@ -8,6 +8,7 @@ import Social from "./Body/Social/Social";
 import Footer from "./Body/Footer/Footer";
 import ForSale from "./Body/ForSale/ForSale";
 import Contact from "./Body/Contact/Contact";
+import StripeContainer from "./Payment/StripeContainer";
 
 import classes from "./body.module.css";
 
@@ -44,7 +45,11 @@ const Body = () => {
           <Route path="/Contact">
             <Contact />
           </Route>
+          <Route path="/TestSale">
+            <StripeContainer />
+          </Route>
         </main>
+
         <Footer className={classes.footer} />
       </div>
     </div>

@@ -11,6 +11,7 @@ const MainHeader = () => {
       { name: "Projects", href: "/Projects" },
       { name: "ForSale", href: "/ForSale" },
       { name: "Contact", href: "/Contact" },
+      { name: "TestSale", href: "/TestSale" },
     ];
 
     return (

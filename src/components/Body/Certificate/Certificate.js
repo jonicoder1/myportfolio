@@ -17,6 +17,13 @@ const Certificate = () => {
       src: "https://udemy-certificate.s3.amazonaws.com/image/UC-8c333204-2d8f-44e1-b257-c13c4dea276d.jpg?v=0",
       alt: "React Js Certificate",
     },
+    {
+      href: "https://www.udemy.com/certificate/UC-8a19d9f4-7e22-4ade-b48f-58f14db6ed5a/",
+      name1: "Data Structures + Algorithms",
+      name2: "Certificate",
+      src: "https://udemy-certificate.s3.amazonaws.com/image/UC-8a19d9f4-7e22-4ade-b48f-58f14db6ed5a.jpg",
+      alt: "Master the Coding Interview: Data Structures and Algorithms",
+    },
   ];
 
   const CertificatesHandler = () => {
