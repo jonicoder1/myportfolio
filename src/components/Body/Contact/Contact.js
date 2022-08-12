@@ -122,7 +122,17 @@ const Contact = () => {
   return (
     <div className={classes.container} id="contact">
       <h1>Contact</h1>
-      <Form />
+      <h3>Let's Get In Touch!</h3>
+      <h4 className={classes.h4}>
+        Ready to start your next project with me? <br /> Give me a call or send
+        me an email and I will get back
+        <br /> to you as soon as possible!
+        <br />
+      </h4>
+      <div className={classes.adiv}>
+        <a href="mailto: jogucareers@gmail.com">Send Email</a>
+      </div>
+      {/* <Form /> */}
     </div>
   );
 };

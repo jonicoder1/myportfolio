@@ -15,6 +15,17 @@
   margin-bottom: 1rem;
 }
 
+.adiv {
+  display: inline;
+  background-color: black;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.h4 {
+  margin: 50px;
+}
+
 .input_error_message {
   color: red;
 }

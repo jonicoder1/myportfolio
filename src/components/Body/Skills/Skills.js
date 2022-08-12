@@ -11,6 +11,9 @@ const Skills = () => {
       name: "Reactjs",
     },
     {
+      name: "Redux",
+    },
+    {
       name: "HTML",
     },
     {

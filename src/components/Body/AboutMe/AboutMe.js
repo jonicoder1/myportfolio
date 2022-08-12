@@ -3,7 +3,6 @@ import me_at_beach from "../../../images/me/me_at_beach.png";
 import me_at_chicago from "../../../images/me/me_at_chicago.png";
 import Card from "../../UI/Card";
 import classes from "./AboutMe.module.css";
-import Hobbies from "./Hobbies";
 
 const AboutMe = () => {
   const gallery = [
@@ -45,7 +44,6 @@ const AboutMe = () => {
     <div className={classes.container}>
       <h1 id="aboutMe">About Me</h1>
       <GalleryHandler />
-      <Hobbies />
     </div>
   );
 };

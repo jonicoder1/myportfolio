@@ -1,6 +1,7 @@
 .container {
   background: var(--dark-color);
   width: 100vw;
+  margin: auto;
 }
 
 .headerName {
@@ -9,8 +10,13 @@
   color: var(--primary-color);
 }
 
+.nav {
+  padding-bottom: 50px;
+}
+
 .navLink {
-  display: inline-block;
+  display: inline;
+  width: max-content;
   color: var(--primary-color);
   background: var(--tertiary-color);
   padding: 8px;
@@ -40,7 +46,7 @@ a.active {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1230px) {
   .mainNav {
     padding: 15px;
   }
@@ -59,6 +65,8 @@ a.active {
   .nav {
     display: flex;
     align-self: center;
+    padding-bottom: auto;
+    margin: auto;
   }
 
   .navLink {

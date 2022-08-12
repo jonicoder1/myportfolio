@@ -9,6 +9,7 @@ import Footer from "./Body/Footer/Footer";
 import ForSale from "./Body/ForSale/ForSale";
 import Contact from "./Body/Contact/Contact";
 import StripeContainer from "./Payment/StripeContainer";
+import Hobbies from "./Body/AboutMe/Hobbies";
 
 import classes from "./body.module.css";
 
@@ -20,9 +21,16 @@ const Body = () => {
       <div>
         <MainHeader />
         <main>
+          <Route path="/main-header">
+            <AboutMe />
+            <Certificate />
+            <Skills />
+            <Projects />
+            <Hobbies />
+            <Contact />
+          </Route>
           <Route path="/AboutMe">
             <AboutMe />
-            <Social />
           </Route>
           <Route path="/WebServices">
             <WebServices />

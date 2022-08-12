@@ -9,15 +9,16 @@ const MainHeader = () => {
       { name: "Web Services", href: "/WebServices" },
       { name: "Certificate", href: "/Certificate" },
       { name: "Projects", href: "/Projects" },
+      { name: "Skills", href: "/Skills" },
       { name: "ForSale", href: "/ForSale" },
-      // { name: "Contact", href: "/Contact" },
-      { name: "TestSale", href: "/TestSale" },
+      { name: "Contact", href: "/Contact" },
+      // { name: "TestSale", href: "/TestSale" },
     ];
 
     return (
       <div className={classes.nav}>
         {items.map((item) => (
-          <h4 key={Math.random()}>
+          <h5 key={Math.random()}>
             <NavLink
               className={classes.navLink}
               activeClassName={classes.active}
@@ -25,7 +26,7 @@ const MainHeader = () => {
             >
               {item.name}
             </NavLink>
-          </h4>
+          </h5>
         ))}
       </div>
     );
