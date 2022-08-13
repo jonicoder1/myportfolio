@@ -6,7 +6,7 @@ const MainHeader = () => {
   const RightNav = () => {
     const items = [
       { name: "About Me", href: "/AboutMe" },
-      { name: "Web Services", href: "/WebServices" },
+      { name: "Services", href: "/Services" },
       { name: "Certificate", href: "/Certificate" },
       { name: "Projects", href: "/Projects" },
       { name: "Skills", href: "/Skills" },
@@ -16,7 +16,7 @@ const MainHeader = () => {
     ];
 
     return (
-      <div className={classes.nav}>
+      <div className={classes.rightNav}>
         {items.map((item) => (
           <h5 key={Math.random()}>
             <NavLink

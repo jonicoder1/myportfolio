@@ -1,7 +1,7 @@
-import classes from "./WebServices.module.css";
-import CardsMap from "./WebServicesList";
+import classes from "./Services.module.css";
+import CardsMap from "./ServicesList";
 
-const WebServices = () => {
+const Services = () => {
   let listTwo = [
     "Domain Name ( 1 Year )",
     "Web Hosting Setup",
@@ -101,4 +101,4 @@ const WebServices = () => {
   );
 };
 
-export default WebServices;
+export default Services;

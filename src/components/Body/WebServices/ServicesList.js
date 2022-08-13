@@ -1,4 +1,4 @@
-import classes from "./WebServices.module.css";
+import classes from "./Services.module.css";
 
 const CardsMap = (props) => {
   const cardsMap = props.cards.map((card) => {

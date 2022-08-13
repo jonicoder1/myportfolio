@@ -1,22 +1,22 @@
 .container {
-  background: var(--dark-color);
   width: 100vw;
-  margin: auto;
+  background: var(--dark-color);
 }
 
 .headerName {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 20px;
   color: var(--primary-color);
 }
 
-.nav {
-  padding-bottom: 50px;
+.rightNav {
+  padding: 25px 0;
 }
 
 .navLink {
-  display: inline;
-  width: max-content;
+  display: inline-block;
+  width: 110px;
+  font-size: 1em;
   color: var(--primary-color);
   background: var(--tertiary-color);
   padding: 8px;
@@ -46,9 +46,11 @@ a.active {
   }
 }
 
-@media only screen and (min-width: 1230px) {
+@media only screen and (min-width: 1000px) {
   .mainNav {
     padding: 15px;
+    width: 90vw;
+    margin: auto;
   }
 
   .navbar {
@@ -62,15 +64,14 @@ a.active {
     display: flex;
   }
 
-  .nav {
+  .rightNav {
     display: flex;
     align-self: center;
     padding-bottom: auto;
-    margin: auto;
   }
 
   .navLink {
-    width: 11vw;
+    height: 60px;
     margin: 0 3px;
     min-width: 100px;
   }

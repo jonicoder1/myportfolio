@@ -1,4 +1,5 @@
 .container {
+  width: 100vw;
   background: var(--dark-color);
   color: var(--primary-color);
   padding: 10px;

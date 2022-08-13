@@ -4,13 +4,13 @@
 }
 
 table {
+  padding: 40px;
   margin: auto;
 }
 
 .tr {
   display: flex;
   flex-wrap: wrap;
-  margin: 50px 30px;
 }
 
 .td {

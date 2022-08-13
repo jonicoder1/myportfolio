@@ -1,6 +1,6 @@
 import MainHeader from "./Body/MainHeader/MainHeader";
 import AboutMe from "./Body/AboutMe/AboutMe";
-import WebServices from "./Body/WebServices/WebServices";
+import Services from "./Body/WebServices/Services";
 import Skills from "./Body/Skills/Skills";
 import Certificate from "./Body/Certificate/Certificate";
 import Projects from "./Body/Projects/Projects";
@@ -32,8 +32,8 @@ const Body = () => {
           <Route path="/AboutMe">
             <AboutMe />
           </Route>
-          <Route path="/WebServices">
-            <WebServices />
+          <Route path="/Services">
+            <Services />
           </Route>
           <Route path="/Certificate">
             <Certificate />
