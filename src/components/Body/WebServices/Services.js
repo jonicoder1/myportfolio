@@ -62,14 +62,14 @@ const Services = () => {
   const pricingLevels = [
     {
       name: "Basic",
-      price: 493,
+      price: 449,
       message: "BASIC PACKAGE ONLY",
       totalPackageMessage: "BASIC TOTAL PACKAGE",
       priceTotalPackage: 658,
     },
     {
       name: "Intermediate",
-      price: 745,
+      price: 547,
       message: "INTERMEDIATE PACKAGE ONLY",
       totalPackageMessage: "INTERMEDIATE TOTAL PACKAGE",
       priceTotalPackage: 749,
