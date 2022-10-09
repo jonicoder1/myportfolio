@@ -42,7 +42,7 @@ const MainHeader = () => {
           id="#profile"
           alt="jon"
         />
-        <a href="main-header">
+        <a href="myportfolio">
           <h4 className={classes.headerName}>{name}</h4>
         </a>
       </div>

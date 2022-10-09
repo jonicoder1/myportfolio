@@ -17,50 +17,47 @@ import { Route } from "react-router-dom";
 
 const Body = () => {
   return (
-    <div className={classes.container} lang="en">
-      <div>
-        <MainHeader />
-        <main>
-          <Route path="/main-header">
-            <AboutMe />
-            <Certificate />
-            <Skills />
-            <Projects />
-            <Hobbies />
-            <Contact />
-          </Route>
-          <Route path="/AboutMe">
-            <AboutMe />
-          </Route>
-          <Route path="/Services">
-            <Services />
-          </Route>
-          <Route path="/Certificate">
-            <Certificate />
-          </Route>
-          <Route path="/Skills">
-            <Skills />
-          </Route>
-          <Route path="/Projects">
-            <Projects />
-          </Route>
-          <Route path="/ForSale">
-            <ForSale />
-          </Route>
-          <Route path="/Social">
-            <Social />
-          </Route>
-          <Route path="/Contact">
-            <Contact />
-          </Route>
-          <Route path="/TestSale">
-            <StripeContainer />
-          </Route>
-        </main>
-
-        <Footer className={classes.footer} />
-      </div>
-    </div>
+    <>
+      <MainHeader />
+      <main>
+        <Route path="/myportfolio">
+          <AboutMe />
+          <Certificate />
+          <Skills />
+          <Projects />
+          <Hobbies />
+          <Contact />
+        </Route>
+        <Route path="/AboutMe">
+          <AboutMe />
+        </Route>
+        <Route path="/Services">
+          <Services />
+        </Route>
+        <Route path="/Certificate">
+          <Certificate />
+        </Route>
+        <Route path="/Skills">
+          <Skills />
+        </Route>
+        <Route path="/Projects">
+          <Projects />
+        </Route>
+        <Route path="/ForSale">
+          <ForSale />
+        </Route>
+        <Route path="/Social">
+          <Social />
+        </Route>
+        <Route path="/Contact">
+          <Contact />
+        </Route>
+        <Route path="/TestSale">
+          <StripeContainer />
+        </Route>
+      </main>
+      <Footer className={classes.footer} />
+    </>
   );
 };
 
