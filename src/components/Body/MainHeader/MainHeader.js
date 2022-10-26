@@ -6,7 +6,7 @@ const MainHeader = () => {
   const RightNav = () => {
     const items = [
       { name: "About Me", href: "/AboutMe" },
-      { name: "Services", href: "/Services" },
+      // { name: "Services", href: "/Services" },
       { name: "Certificate", href: "/Certificate" },
       { name: "Projects", href: "/Projects" },
       { name: "Skills", href: "/Skills" },
