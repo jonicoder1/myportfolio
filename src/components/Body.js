@@ -31,9 +31,9 @@ const Body = () => {
         <Route path="/AboutMe">
           <AboutMe />
         </Route>
-        {/* <Route path="/Services">
+        <Route path="/Services">
           <Services />
-        </Route> */}
+        </Route>
         <Route path="/Certificate">
           <Certificate />
         </Route>
