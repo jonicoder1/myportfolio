@@ -1,4 +1,4 @@
-import myProfile from "../../../images/me/me_profile.jpg";
+import myProfile from "../../../images/me/me_profile1.jpg";
 import classes from "./MainHeader.module.css";
 import { NavLink } from "react-router-dom";
 

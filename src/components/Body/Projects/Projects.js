@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Wheel_of_Success from "../../../images/projects/Wheel_of_Success.jpg";
 import Web_App_Dashboard from "../../../images/projects/Web_App_Dashboard.jpg";
 import Startup_Employee_Directory from "../../../images/projects/Startup_Employee_Directory.jpg";
@@ -8,10 +9,11 @@ import Interactive_Photo_Gallery from "../../../images/projects/Interactive_Phot
 import Web_Style_Guide from "../../../images/projects/Web_Style_Guide.jpg";
 import Card from "../../UI/Card";
 import classes from "./Projects.module.css";
-import React from "react";
-// import { ReactDOM } from "react-dom/client";
 
 const Projects = () => {
+  const [showDescription, setShowDescription] = useState(true);
+  const [showImage, setShowImage] = useState(true);
+
   const ProjectList = [
     {
       name: "Wheel Of Success",
@@ -34,7 +36,7 @@ const Projects = () => {
         "I created an employee directory using Javascript by communicating with a third-party API",
     },
     {
-      name: "My Personal Profile Page",
+      name: "Personal Profile Page",
       href: "https://jogusland.github.io/portfolio_project_1/",
       src: `${My_Personal_Profile_Page}`,
       description:
@@ -48,7 +50,7 @@ const Projects = () => {
         "Using HTML and CSS, I Designed a mobile-first responsive web page that function well on multiple screen sizes.",
     },
     {
-      name: "An Online Registration Form",
+      name: "Online Registration Form",
       href: "https://jogusland.github.io/portfolio_project_3/",
       src: `${An_Online_Registration_Form}`,
       description:
@@ -71,20 +73,31 @@ const Projects = () => {
   ];
 
   return (
-    <div className={classes.container}>
+    <div className={classes.mainContainer}>
       <h1 id="projects">Projects</h1>
+      <div className={classes.container}>
+        <p>view options: </p>
+        <button
+          onClick={() => setShowImage(!showImage)}
+          className={classes.button}
+        >
+          image
+        </button>
+        <button
+          onClick={() => setShowDescription(!showDescription)}
+          className={classes.button}
+        >
+          description
+        </button>
+      </div>
       <div className={classes.cardsContainer}>
         {ProjectList.map((project) => (
           <Card key={Math.random()}>
             <a href={project.href} target="_blank" rel="noreferrer">
               <h3>{project.name}</h3>
-              <img
-                src={project.src}
-                className="img-project img-fluid img-thumbnail rounded mb-3 d-none d-sm-block"
-                alt={project.name}
-              />
+              {showImage ? true : <img src={project.src} alt={project.name} />}
             </a>
-            <p>{project.description}</p>
+            {showDescription ? true : <p>{project.description}</p>}
           </Card>
         ))}
       </div>

@@ -5,38 +5,24 @@ const Sheet = () => {
   return (
     <div>
       <h3 className="mb-3">Learning Languages</h3>
-      <table className={classes.table}>
-        <tbody>
-          <tr>
-            <th>1</th>
-            <td>English</td>
-            <td>Fluent</td>
-          </tr>
-          <tr>
-            <th>2</th>
-            <td>Tagalog</td>
-            <td>Native</td>
-          </tr>
-          <tr>
-            <th>3</th>
-            <td>
-              <a
-                href={my_portuguese_certificate}
-                target="_blank"
-                rel="noreferrer"
-              >
-                Portuguese
-              </a>
-            </td>
-            <td>Intermediate</td>
-          </tr>
-          <tr>
-            <th>4</th>
-            <td>Spanish</td>
-            <td>Beginner</td>
-          </tr>
-        </tbody>
-      </table>
+      <div>
+        <p>English</p>
+        <p>fluent</p>
+      </div>
+      <div>
+        <p>Filipino</p>
+        <p>Fluent</p>
+      </div>
+      <div>
+        <a href={my_portuguese_certificate} target="_blank" rel="noreferrer">
+          Portuguese
+        </a>
+        <p>Intermediate</p>
+      </div>
+      <div>
+        <p>Spanish</p>
+        <p>Beginner</p>
+      </div>
     </div>
   );
 };

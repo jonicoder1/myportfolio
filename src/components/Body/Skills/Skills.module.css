@@ -1,26 +1,33 @@
-.container {
+.mainContainer {
   width: 100vw;
   background-color: var(--secondary-color);
+  padding: 0 0 100px 0;
+  padding: 0 0 60px 0;
 }
 
-table {
-  padding: 40px;
-  margin: auto;
-}
-
-.tr {
+.skillsListContainer {
+  width: 70vw;
+  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.td {
-  margin: 10px;
-  border-radius: 20px;
-  padding: 10px 15px;
+.circle {
+  margin: 14px;
+  width: 140px;
+  height: 140px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.itemName {
+  color: white;
+  margin: 33px 0 0 0;
 }
 
 @media only screen and (min-width: 800px) {
-  .td {
+  .circle {
     margin-top: 40px;
     padding: 20px;
   }

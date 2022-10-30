@@ -12,7 +12,7 @@ const Certificate = () => {
     },
     {
       href: "https://www.udemy.com/certificate/UC-8c333204-2d8f-44e1-b257-c13c4dea276d/",
-      name1: "React JS, React Router and Redux",
+      name1: "React JS, React Router, and Redux",
       name2: "Certificate",
       src: "https://udemy-certificate.s3.amazonaws.com/image/UC-8c333204-2d8f-44e1-b257-c13c4dea276d.jpg?v=0",
       alt: "React Js Certificate",
@@ -26,8 +26,9 @@ const Certificate = () => {
     },
   ];
 
-  const CertificatesHandler = () => {
-    return (
+  return (
+    <div className={classes.mainContainer}>
+      <h1 id="certificate">Certificates</h1>
       <div className={classes.cardsContainer}>
         {certificates.map((certificate) => (
           <Card key={Math.random()}>
@@ -43,13 +44,6 @@ const Certificate = () => {
           </Card>
         ))}
       </div>
-    );
-  };
-
-  return (
-    <div className={classes.container}>
-      <h1 id="certificate">Certificates</h1>
-      <CertificatesHandler />
     </div>
   );
 };

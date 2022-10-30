@@ -415,6 +415,19 @@ p {
   color: black;
 }
 
+button {
+  margin: 10px;
+  padding: 8px 15px;
+  color: white;
+  background-color: var(--quaternary-color);
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: var(--tertiary-color);
+}
+
 figure {
   position: relative;
 }

@@ -3,7 +3,7 @@ import classes from "./Skills.module.css";
 const Skills = () => {
   let newList = [];
 
-  const td = [
+  const circle = [
     {
       name: "Javascript",
     },
@@ -48,22 +48,25 @@ const Skills = () => {
     },
   ];
 
-  td.map((item) => {
+  circle.map((item) => {
+    const randomNumber = Math.floor(Math.random() * 283);
     return newList.push(
-      <td className={classes.td} key={Math.random()}>
-        {item.name}
-      </td>
+      <div
+        className={classes.circle}
+        key={Math.random()}
+        style={{
+          backgroundColor: "rgb(8,169," + randomNumber + ")",
+        }}
+      >
+        <p className={classes.itemName}>{item.name}</p>
+      </div>
     );
   });
 
   return (
-    <div className={classes.container}>
+    <div className={classes.mainContainer}>
       <h1>Skills</h1>
-      <table>
-        <tbody>
-          <tr className={classes.tr}>{newList}</tr>
-        </tbody>
-      </table>
+      <div className={classes.skillsListContainer}>{newList}</div>
     </div>
   );
 };

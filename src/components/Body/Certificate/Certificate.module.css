@@ -1,12 +1,8 @@
-.container {
+.mainContainer {
   width: 100vw;
   height: auto;
   padding: 20px 20px 100px 20px;
   background-color: var(--primary-color);
-}
-
-.footer {
-  bottom: 0px;
 }
 
 .cardsContainer {
@@ -17,7 +13,10 @@
   width: 90vw;
   margin: auto;
   padding: 50px;
-  background-color: var(--secondary-color);
+}
+
+.card {
+  padding: 500px;
 }
 
 .techDegree {
@@ -25,8 +24,13 @@
   max-width: 350px;
 }
 
+.footer {
+  bottom: 0px;
+}
+
 @media only screen and (min-width: 750px) {
   .cardsContainer {
     flex-direction: row;
+    width: 75vw;
   }
 }

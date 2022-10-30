@@ -130,7 +130,9 @@ const Contact = () => {
         <br />
       </h4>
       <div className={classes.adiv}>
-        <a href="mailto: jogucareers@gmail.com">Send Email</a>
+        <button>
+          <a href="mailto: jogucareers@gmail.com">Send Email</a>
+        </button>
       </div>
       {/* <Form /> */}
     </div>
