@@ -1,7 +1,7 @@
 .container {
   width: 100vw;
   height: 70vh;
-  background-color: var(--quaternary-color);
+  background-color: var(--primary-color);
 }
 
 .table {

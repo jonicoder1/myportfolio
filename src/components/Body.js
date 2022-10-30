@@ -21,10 +21,10 @@ const Body = () => {
       <MainHeader />
       <main>
         <Route path="/myportfolio">
-          <AboutMe />
-          <Certificate />
-          <Skills />
           <Projects />
+          <Skills />
+          <Certificate />
+          <AboutMe />
           <Hobbies />
           <Contact />
         </Route>
@@ -34,9 +34,6 @@ const Body = () => {
         <Route path="/Services">
           <Services />
         </Route>
-        <Route path="/Certificate">
-          <Certificate />
-        </Route>
         <Route path="/Skills">
           <Skills />
         </Route>
@@ -45,6 +42,9 @@ const Body = () => {
         </Route>
         <Route path="/ForSale">
           <ForSale />
+        </Route>
+        <Route path="/Certificate">
+          <Certificate />
         </Route>
         <Route path="/Social">
           <Social />

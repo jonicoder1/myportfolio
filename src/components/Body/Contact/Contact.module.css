@@ -2,6 +2,7 @@
   width: 100vw;
   margin-bottom: 100px;
   height: auto;
+  background-color: var(--secondary-color);
 }
 
 .contact .email {
@@ -17,7 +18,7 @@
 
 .adiv {
   display: inline;
-  background-color: black;
+  background-color: var(--secondary-color);
   padding: 15px;
   border-radius: 15px;
 }

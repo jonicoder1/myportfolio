@@ -6,8 +6,10 @@ import Mobile_first_Responsive_Layout from "../../../images/projects/Mobile_firs
 import An_Online_Registration_Form from "../../../images/projects/An_Online_Registration_Form.jpg";
 import Interactive_Photo_Gallery from "../../../images/projects/Interactive_Photo_Gallery.jpg";
 import Web_Style_Guide from "../../../images/projects/Web_Style_Guide.jpg";
-import ProjectHandler from "./ProjectsList";
+import Card from "../../UI/Card";
 import classes from "./Projects.module.css";
+import React from "react";
+// import { ReactDOM } from "react-dom/client";
 
 const Projects = () => {
   const ProjectList = [
@@ -15,82 +17,76 @@ const Projects = () => {
       name: "Wheel Of Success",
       href: "https://jogusland.github.io/portfolio_project_6/",
       src: `${Wheel_of_Success}`,
-      description1:
-        "Created a browser version of “Wheel of Success”, a word guessing game",
-      description2:
-        "Used Javascript to come up with a random phrase that players will try to guess by entering different letters into the program.",
+      description: "Used Javascript to build a word guessing game",
     },
     {
       name: "Web App Dashboard",
       href: "https://jogusland.github.io/portfolio_project_7",
       src: `${Web_App_Dashboard}`,
-      description1:
-        "Built an interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming",
-      description2:
-        "The project involves creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability.",
+      description:
+        "Used advanced web techniques including SVG graphics, tables, charts, and interactive JavaScript programming",
     },
     {
       name: "Startup Employee Directory",
       href: "https://jogusland.github.io/portfolio_project_8/",
       src: `${Startup_Employee_Directory}`,
-      description1:
-        "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages.",
-      description2:
-        "Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
+      description:
+        "I created an employee directory using Javascript by communicating with a third-party API",
     },
     {
       name: "My Personal Profile Page",
       href: "https://jogusland.github.io/portfolio_project_1/",
       src: `${My_Personal_Profile_Page}`,
-      description1:
-        "Customized a personal online profile by adding graphics, customizing text, and improving the look of a web page using Cascading Style Sheets, the formatting language of the web.",
-      description2:
-        "Shared the finished project on GitHub, a website used by teams of programmers to share and work on programming code.",
+      description:
+        "Customized an online profile by using graphics, text, and CSS",
     },
     {
       name: "Mobile-first Responsive Layout",
       href: "https://jogusland.github.io/portfolio_project_2/",
       src: `${Mobile_first_Responsive_Layout}`,
-      description1:
-        "Designed web pages that look and function well on multiple screen sizes.",
-      description2:
-        "Using HTML, CSS, and responsive design, I created a mobile-first web page with a layout that adjusts to fit mobile phones, tablets, and desktop displays.",
+      description:
+        "Using HTML and CSS, I Designed a mobile-first responsive web page that function well on multiple screen sizes.",
     },
     {
       name: "An Online Registration Form",
       href: "https://jogusland.github.io/portfolio_project_3/",
       src: `${An_Online_Registration_Form}`,
-      description1:
-        "Web forms appear everywhere online: forms allow users to order books, sign up for websites, and post to Facebook.",
-      description2:
-        "This project challenged me to build a responsive, mobile-first registration form using a variety of HTML form elements.",
+      description:
+        "Built a challenging responsive, mobile-first registration form using a variety of HTML form elements.",
     },
     {
       name: "Interactive Photo Gallery",
       href: "https://jogusland.github.io/portfolio_project_5/",
       src: `${Interactive_Photo_Gallery}`,
-      description1:
-        "Used HTML, CSS and the popular programming language JavaScript to create an interactive, searchable gallery of photos.",
-      description2: "",
+      description:
+        "Used HTML, CSS and JavaScript to create an interactive, searchable gallery of photos.",
     },
     {
       name: "Web Style Guide",
       href: "https://jogusland.github.io/portfolio_project_4/",
       src: `${Web_Style_Guide}`,
-      description1:
-        "Sass is an important tool in a modern Front End Web Developer’s toolbox.",
-      description2:
-        "It's used by many developers to make styling web pages with CSS easier and faster.",
-      description3:
-        "I created a style guide that can act as your own personal and custom Bootstrap that you can drop into any of your projects to speed up styling, layout and development in general.",
+      description:
+        "I created a style guide that can act as your own custom Bootstrap that you can drop into any of your projects to speed up styling, layout, and development",
     },
   ];
 
   return (
     <div className={classes.container}>
-      <div className={classes.innerContainer}>
-        <h1 id="projects">Projects</h1>
-        <ProjectHandler lists={ProjectList} />
+      <h1 id="projects">Projects</h1>
+      <div className={classes.cardsContainer}>
+        {ProjectList.map((project) => (
+          <Card key={Math.random()}>
+            <a href={project.href} target="_blank" rel="noreferrer">
+              <h3>{project.name}</h3>
+              <img
+                src={project.src}
+                className="img-project img-fluid img-thumbnail rounded mb-3 d-none d-sm-block"
+                alt={project.name}
+              />
+            </a>
+            <p>{project.description}</p>
+          </Card>
+        ))}
       </div>
     </div>
   );

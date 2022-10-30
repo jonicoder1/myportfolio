@@ -1,6 +1,6 @@
 .container {
   width: 100vw;
-  background-color: var(--quaternary-color);
+  background-color: var(--secondary-color);
 }
 
 table {

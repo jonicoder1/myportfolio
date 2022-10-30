@@ -403,7 +403,7 @@ a:hover {
 }
 
 li {
-  color: white;
+  color: black;
 }
 
 h1,
@@ -412,7 +412,7 @@ h3,
 h4,
 h5,
 p {
-  color: white;
+  color: black;
 }
 
 figure {
@@ -431,6 +431,8 @@ ul {
 
 img {
   border-radius: 10px;
+  width: 100%;
+  animation-duration: 4s;
 }
 
 th {
@@ -450,12 +452,6 @@ figcaption {
   width: 100%;
   height: auto;
   opacity: 70%;
-}
-
-img {
-  width: 100%;
-  border-radius: 8px;
-  animation-duration: 4s;
 }
 
 form {

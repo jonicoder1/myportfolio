@@ -1,11 +1,11 @@
 :root {
   --primary-color: white;
-  --secondary-color: #157b82;
-  --tertiary-color: #15546b;
-  --quaternary-color: #0f4152;
+  --secondary-color: #d1d0d0;
+  --tertiary-color: #c4c4c4;
+  --quaternary-color: #7e7e7e;
 
-  --neutral-color: rgb(59, 59, 59);
-  --dark-color: rgb(39, 39, 39);
+  --neutral-color: rgb(123, 123, 123);
+  --dark-color: rgb(98, 98, 98);
 
   --button-color: aqua;
 }

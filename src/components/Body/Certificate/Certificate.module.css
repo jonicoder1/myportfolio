@@ -2,7 +2,7 @@
   width: 100vw;
   height: auto;
   padding: 20px 20px 100px 20px;
-  background-color: var(--tertiary-color);
+  background-color: var(--primary-color);
 }
 
 .footer {
