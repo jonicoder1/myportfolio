@@ -1,7 +1,7 @@
 {
   "name": "my-app-new",
   "version": "0.1.0",
-  "homepage": "https://jonicoder1.github.io/myportfolio",
+  "homepage": "https://jonicoder1.github.io/myportfolio/",
   "private": true,
   "dependencies": {
     "@stripe/react-stripe-js": "^1.9.0",
