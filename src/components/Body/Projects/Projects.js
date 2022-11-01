@@ -17,55 +17,55 @@ const Projects = () => {
   const ProjectList = [
     {
       name: "Wheel Of Success",
-      href: "https://jogusland.github.io/portfolio_project_6/",
+      href: "https://jonicoder1.github.io/portfolio_project_6/",
       src: `${Wheel_of_Success}`,
       description: "Used Javascript to build a word guessing game",
     },
     {
       name: "Web App Dashboard",
-      href: "https://jogusland.github.io/portfolio_project_7",
+      href: "https://jonicoder1.github.io/portfolio_project_7",
       src: `${Web_App_Dashboard}`,
       description:
         "Used advanced web techniques including SVG graphics, tables, charts, and interactive JavaScript programming",
     },
     {
       name: "Startup Employee Directory",
-      href: "https://jogusland.github.io/portfolio_project_8/",
+      href: "https://jonicoder1.github.io/portfolio_project_8/",
       src: `${Startup_Employee_Directory}`,
       description:
         "I created an employee directory using Javascript by communicating with a third-party API",
     },
     {
       name: "Personal Profile Page",
-      href: "https://jogusland.github.io/portfolio_project_1/",
+      href: "https://jonicoder1.github.io/portfolio_project_1/",
       src: `${My_Personal_Profile_Page}`,
       description:
         "Customized an online profile by using graphics, text, and CSS",
     },
     {
       name: "Mobile-first Responsive Layout",
-      href: "https://jogusland.github.io/portfolio_project_2/",
+      href: "https://jonicoder1.github.io/portfolio_project_2/",
       src: `${Mobile_first_Responsive_Layout}`,
       description:
         "Using HTML and CSS, I Designed a mobile-first responsive web page that function well on multiple screen sizes.",
     },
     {
       name: "Online Registration Form",
-      href: "https://jogusland.github.io/portfolio_project_3/",
+      href: "https://jonicoder1.github.io/portfolio_project_3/",
       src: `${An_Online_Registration_Form}`,
       description:
         "Built a challenging responsive, mobile-first registration form using a variety of HTML form elements.",
     },
     {
       name: "Interactive Photo Gallery",
-      href: "https://jogusland.github.io/portfolio_project_5/",
+      href: "https://jonicoder1.github.io/portfolio_project_5/",
       src: `${Interactive_Photo_Gallery}`,
       description:
         "Used HTML, CSS and JavaScript to create an interactive, searchable gallery of photos.",
     },
     {
       name: "Web Style Guide",
-      href: "https://jogusland.github.io/portfolio_project_4/",
+      href: "https://jonicoder1.github.io/portfolio_project_4/",
       src: `${Web_Style_Guide}`,
       description:
         "I created a style guide that can act as your own custom Bootstrap that you can drop into any of your projects to speed up styling, layout, and development",
