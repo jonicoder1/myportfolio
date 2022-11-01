@@ -6,17 +6,17 @@
 }
 
 .skillsListContainer {
+  display: flex;
   width: 70vw;
   margin: 0 auto;
-  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .circle {
-  margin: 14px;
-  width: 140px;
-  height: 140px;
+  margin: 14px auto;
+  width: 120px;
+  height: 120px;
   background-color: var(--primary-color);
   border-radius: 50%;
 }
@@ -28,7 +28,14 @@
 
 @media only screen and (min-width: 800px) {
   .circle {
-    margin-top: 40px;
     padding: 20px;
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media only screen and (min-width: 515px) {
+  .circle {
+    margin: 14px;
   }
 }

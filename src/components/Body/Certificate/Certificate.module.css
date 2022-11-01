@@ -12,7 +12,6 @@
   border-radius: 20px;
   width: 90vw;
   margin: auto;
-  padding: 50px;
 }
 
 .card {
@@ -28,9 +27,15 @@
   bottom: 0px;
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 500px) {
+  .cardsContainer {
+    max-width: 470px;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
   .cardsContainer {
     flex-direction: row;
-    width: 75vw;
+    max-width: 70vw;
   }
 }
