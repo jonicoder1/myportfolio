@@ -11,27 +11,27 @@ const Contacts = () => {
   const info = [
     {
       name: "Github",
-      href: "https://github.com/jogusland/",
+      href: "https://github.com/jonicoder1/",
       svg: GithubSVG,
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/jogus/",
+      href: "https://www.linkedin.com/in/jonicoder/",
       svg: LinkedInSVG,
     },
     {
       name: "Facebook",
-      href: "https://www.facebook.com/joniDeveloper",
+      href: "https://www.facebook.com/jonicoder",
       svg: FacebookJPG,
     },
     {
       name: "Twitter",
-      href: "https://twitter.com/jogu253/",
+      href: "https://twitter.com/jonicoder/",
       svg: TwitterSVG,
     },
     {
       name: "Instagram",
-      href: "https://www.instagram.com/joni_developer/",
+      href: "https://www.instagram.com/jonicoder/",
       svg: InstagramSVG,
     },
     {
