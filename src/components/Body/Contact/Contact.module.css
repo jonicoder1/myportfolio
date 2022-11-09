@@ -1,8 +1,7 @@
 .container {
   width: 100vw;
-  margin-bottom: 100px;
   height: auto;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .contact .email {
