@@ -3,4 +3,6 @@
   background: var(--dark-color);
   color: var(--primary-color);
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }

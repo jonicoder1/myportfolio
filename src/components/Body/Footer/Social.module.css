@@ -1,17 +1,16 @@
 .container {
-  width: 100vw;
-  background-color: var(--tertiary-color);
+  background-color: var(--quarternary-color);
+  width: 370px;
 }
 
 .socialMedia {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 0 100px 0;
 }
 
 .socialMedia img {
-  width: 60px;
+  width: 35px;
   border-radius: 50%;
 }
 

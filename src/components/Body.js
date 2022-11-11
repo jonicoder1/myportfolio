@@ -3,7 +3,6 @@ import AboutMe from "./Body/AboutMe/AboutMe";
 import Skills from "./Body/Skills/Skills";
 import Certificate from "./Body/Certificate/Certificate";
 import Projects from "./Body/Projects/Projects";
-import Social from "./Body/Social/Social";
 import Footer from "./Body/Footer/Footer";
 import Contact from "./Body/Contact/Contact";
 import Hobbies from "./Body/AboutMe/Hobbies";
@@ -21,7 +20,6 @@ const Body = () => {
           <Certificate />
           <AboutMe />
           <Hobbies />
-          <Social />
           <Contact />
         </Route>
         <Route path="/AboutMe">
@@ -35,9 +33,6 @@ const Body = () => {
         </Route>
         <Route path="/Certificate">
           <Certificate />
-        </Route>
-        <Route path="/Social">
-          <Social />
         </Route>
         <Route path="/Contact">
           <Contact />

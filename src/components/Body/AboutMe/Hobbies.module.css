@@ -4,6 +4,16 @@
   padding: 0 0 100px 0;
 }
 
+.rowCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  margin: 0 50px;
+}
+
 .table {
   width: 65vw;
   margin: auto;
@@ -15,6 +25,10 @@
   width: 500px;
 }
 
+.img {
+  width: 400px;
+}
+
 .table th {
   width: 60px;
 }
@@ -22,6 +36,12 @@
 @media only screen and (min-width: 768px) {
   table {
     width: 70%;
+  }
+
+  .rowCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 

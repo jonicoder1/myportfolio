@@ -14,7 +14,7 @@ const Contact = () => {
       </h4>
       <iframe
         src="https://www.cognitoforms.com/f/xWSnRERFcEud5UFUlnAXUQ/1"
-        style={{ border: 0, width: 700 }}
+        style={{ border: 0, width: 480 }}
         height="582"
       ></iframe>
       <script src="https://www.cognitoforms.com/f/iframe.js"></script>

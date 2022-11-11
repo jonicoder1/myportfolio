@@ -7,7 +7,7 @@ import InstagramSVG from "../../../images/social_media/Instagram/Instagram.svg";
 import DiscordSVG from "../../../images/social_media/discord.svg";
 import FacebookJPG from "../../../images/social_media/facebook.jpg";
 
-const Contacts = () => {
+const Social = () => {
   const info = [
     {
       name: "Github",
@@ -49,7 +49,6 @@ const Contacts = () => {
             <a href={social.href} target="_blank" rel="noreferrer">
               <img src={social.svg} alt={social.name.toLowerCase()} />
             </a>
-            <figcaption>{social.name}</figcaption>
           </figure>
         ))}
       </div>
@@ -58,7 +57,6 @@ const Contacts = () => {
 
   return (
     <div className={classes.container}>
-      <h1 id="social">Social</h1>
       <div>
         <Social />
       </div>
@@ -66,4 +64,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default Social;
