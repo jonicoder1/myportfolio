@@ -8,7 +8,7 @@ const Skills = () => {
       name: "Javascript",
     },
     {
-      name: "Reactjs",
+      name: "ReactJs",
     },
     {
       name: "Redux",
