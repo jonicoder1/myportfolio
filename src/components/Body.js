@@ -14,7 +14,7 @@ const Body = () => {
     <>
       <MainHeader />
       <main>
-        <Route path="/myportfolio">
+        <Route path="/">
           <Projects />
           <Skills />
           <Certificate />
