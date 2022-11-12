@@ -9,6 +9,7 @@ const MainHeader = () => {
       { name: "Projects", href: "/Projects" },
       { name: "Skills", href: "/Skills" },
       { name: "Certificate", href: "/Certificate" },
+      { name: "Hobbies", href: "/Hobbies" },
       { name: "Contact", href: "/Contact" },
     ];
 
