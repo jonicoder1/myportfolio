@@ -39,6 +39,11 @@ const Social = () => {
       href: "https://discord.gg/eebzH7HwHV",
       svg: DiscordSVG,
     },
+    {
+      name: "Medium",
+      href: "https://medium.com/@jonicoder",
+      svg: null,
+    },
   ];
 
   const Social = () => {
